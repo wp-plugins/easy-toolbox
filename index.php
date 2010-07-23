@@ -2,7 +2,7 @@
 /*
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
-Description: All In One plugin for SEO, Facebook, Twitter flickr, adsense, analytics and more ....
+Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Analytics and more ....
 Version: 0.2.96
 Author: Fr&eacute;d&eacute;ric Gallin&eacute;
 Author URI: http://galline.fr
@@ -31,7 +31,7 @@ load_plugin_textdomain( 'easytoolbox', false, basename(dirname(__FILE__)) . '/la
 
 
 // Version du plugin
-$_SESSION['version'] = "0.2.95";
+$_SESSION['version'] = "0.2.96";
 
 // ajouter le menu en admin
 function admin_menu() {
