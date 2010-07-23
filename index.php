@@ -3,8 +3,8 @@
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
 Description: All In One plugin for SEO, Facebook, Twitter flickr, adsense, analytics and more ....
-Version: 0.2.95
-Author: Frédéric Galliné
+Version: 0.2.96
+Author: Fr&eacute;d&eacute;ric Gallin&eacute;
 Author URI: http://galline.fr
 License: A "Slug" license name e.g. GPL2
 Domain Path: /languages
