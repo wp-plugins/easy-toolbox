@@ -188,9 +188,7 @@ function easytoolbox_index() {
 			        
 			        <tr valign="bottom">
 				        <td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/option.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/style.png"/></a></td>
-				        
-				        
-						<td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/option.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/money.png"/></a></td>
+				        <td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/option.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/money.png"/></a></td>
 						<td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/help.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/aide.png"/></a></td>
 						
 					</tr>
