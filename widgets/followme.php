@@ -14,7 +14,7 @@ class followme extends WP_Widget {
 
     function followme() {
 		$widget_ops = array('classname' => 'followme', 'description' => __( "Add social network logos in your Sidebar") );
-		$this->WP_Widget('followme', __('[ETB] Follow Me'), $widget_ops, $control_ops);
+		$this->WP_Widget('followme', __('[ETB] Follow Me'), $widget_ops);
 		
 		wp_enqueue_script('jscolor', 
 			WP_PLUGIN_URL."/easy-toolbox/js/jscolor/jscolor.js");
