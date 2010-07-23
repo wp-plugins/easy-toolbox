@@ -21,7 +21,7 @@ class mailinglist extends WP_Widget {
 		$this->WP_Widget('mailinglist', __('[ETB] Mailing list'), $widget_ops, $control_ops);
 		
 		wp_enqueue_script('jscolor', 
-			WP_PLUGIN_URL."/easytoolbox/js/jscolor/jscolor.js");
+			WP_PLUGIN_URL."/easy-toolbox/js/jscolor/jscolor.js");
 			
 	}
 	
