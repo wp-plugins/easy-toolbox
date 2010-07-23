@@ -1,5 +1,5 @@
 === Easy ToolBox ===
-Contributors: Fré&eacute;dé&eacute;ric Galliné&eacute;
+Contributors: frederic Galline
 Donate link: 
 Tags: SEO, Facebook, adsense, analytics, twitter, all in one, share, like, netvibes, widget
 Requires at least: 2.9
@@ -42,14 +42,14 @@ Easytoolbox is Multi-language
 
 == Version History ==
 
-= Version 0.1 = 
-
-* Initial release
-
 = Version 0.2.5 = 
 
 * Bug fixes
 * Add 6 new widgets (Facebook, twitter, social, mailinglist via Feedburner)
+
+= Version 0.1 = 
+
+* Initial release
 
 == Screenshots ==
 
