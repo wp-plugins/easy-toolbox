@@ -1,5 +1,5 @@
 === Easy ToolBox ===
-Contributors: Frédéric Galliné
+Contributors: Fré&eacute;dé&eacute;ric Galliné&eacute;
 Donate link: 
 Tags: SEO, Facebook, adsense, analytics, twitter, all in one, share, like, netvibes, widget
 Requires at least: 2.9
@@ -11,7 +11,7 @@ This plugin is simple, all in one and really simplifies your life (SEO, Social n
 
 EasyToolbox is an All in One plugin. with, it will be very easy to optimize your site for search engines and/or add "social" to retain your audience. Easytoolbox will also allow you to easily add advertising on your site to monetize it. No need to be an expert to be finally visible. Enjoy ..
 
-=Simplicity=
+= Simplicity =
 You never have to put your hands in your source code. Easytoolbox will add many widgets to your site according to your needs.
 
 =New options / New widgets=
@@ -22,10 +22,10 @@ You never have to put your hands in your source code. Easytoolbox will add many 
 * Logos "Share" to share your information on facebook, twitter, netvibes, Digg, Technorati, Wikio, Delicious ...
 * Your RSS feeds optimize with Feedburner,
 
-=Monetize=
+= Monetize =
 You will be able to very simply add Google Adsense advertising on your articles and your thanks to the new Sidebar Widgets. 
 
-=Languages=
+= Languages =
 Easytoolbox is Multi-language
 
 == Installation ==
