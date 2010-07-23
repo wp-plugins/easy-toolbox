@@ -18,7 +18,7 @@
 					<p><?php _e('If you want to help us to translate this plugin in other languages. Simply download the free software Poedit and the file "easytoolbox.po"', 'easytoolbox') ?></p>
 					<p><?php _e('Open this file with Poedit and translate each sentence in the new language. Just send us the files generated. We integrate as quickly as possible.', 'easytoolbox') ?></p>
 					<p>&rarr; <a href="http://www.poedit.net/" target="blank"><?php _e('Download', 'easytoolbox') ?></a> Poedit</p>
-					<p>&rarr; <a href="<?PHP echo WP_PLUGIN_URL ?>/easytoolbox/languages/easytoolbox.po" target="blank"><?php _e('Download', 'easytoolbox') ?></a> easytoolbox.po</p>
+					<p>&rarr; <a href="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/languages/easytoolbox.po" target="blank"><?php _e('Download', 'easytoolbox') ?></a> easytoolbox.po</p>
 					<br/>
 
 				<h4>Credits</h4>
