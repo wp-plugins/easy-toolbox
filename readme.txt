@@ -14,7 +14,7 @@ EasyToolbox is an All in One plugin. with, it will be very easy to optimize your
 = Simplicity =
 You never have to put your hands in your source code. Easytoolbox will add many widgets to your site according to your needs.
 
-=New options / New widgets=
+= New options / New widgets =
 * Google Analytics to track your traffic,
 * SEO tools really simple but efficient,
 * Webmastertools,
