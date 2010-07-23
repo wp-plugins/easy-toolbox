@@ -8,7 +8,7 @@
 		
 		<table class="form-table">
 		        <tr valign="top">
-		        <th scope="row"><img src="../wp-content/plugins/easytoolbox/images/money.png" width="20px" height="20px"/><?php _e('Monetize your Blog','easytoolbox'); ?></th>
+		        <th scope="row"><img src="../wp-content/plugins/easy-toolbox/images/money.png" width="20px" height="20px"/><?php _e('Monetize your Blog','easytoolbox'); ?></th>
 		        <td><input type="checkbox" class="checkbox" name="etb_choix_adsense" id="etb_choix_adsense" value="1" <?php checked('1', get_option('etb_choix_adsense')); ?> /><?php _e('I want to put advertising on my site.','easytoolbox'); ?></td>
 		        </tr>
 		        
@@ -38,7 +38,7 @@
 		   
 	<div id="google_options" style="display:none" >
 	
-	<div><img src="../wp-content/plugins/easytoolbox/images/pointe_haute.png" style="margin:0px 0 0 255px" width="20px" height="9px"/></div>
+	<div><img src="../wp-content/plugins/easy-toolbox/images/pointe_haute.png" style="margin:0px 0 0 255px" width="20px" height="9px"/></div>
 		
 		<div class="options">
 		    
@@ -46,7 +46,7 @@
 	
 			<tr valign="top" >
 
-		        <th scope="row"><img src="../wp-content/plugins/easytoolbox/images/google_adsense.png" /><br/><br/><?php _e('Enter your Adsense code for content','easytoolbox'); ?><br/><a target="blank" href="https://www.google.com/adsense/adsense-products"><b>&rarr; </b><?php _e('Get code','easytoolbox'); ?></a><br/><br/><hr><br/><i><?php _e('For add ads on your sidebar, just use the ','easytoolbox'); ?><a href="<?php echo admin_url('widgets.php'); ?>"><?php _e('Widgets','easytoolbox'); ?></a>.</i></th>
+		        <th scope="row"><img src="../wp-content/plugins/easy-toolbox/images/google_adsense.png" /><br/><br/><?php _e('Enter your Adsense code for content','easytoolbox'); ?><br/><a target="blank" href="https://www.google.com/adsense/adsense-products"><b>&rarr; </b><?php _e('Get code','easytoolbox'); ?></a><br/><br/><hr><br/><i><?php _e('For add ads on your sidebar, just use the ','easytoolbox'); ?><a href="<?php echo admin_url('widgets.php'); ?>"><?php _e('Widgets','easytoolbox'); ?></a>.</i></th>
 		        <td><textarea name="etb_google_ad_content" id="etb_google_ad_content" cols="70" rows="11"  /><?php echo get_option('etb_google_ad_content','easytoolbox'); ?></textarea></td>
 			</tr>
 		</table>

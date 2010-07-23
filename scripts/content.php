@@ -30,33 +30,33 @@ if ($choix_share != "") {
 
 	if (!empty($twitter)) {
 	
-	$twitter='<a href="http://twitter.com/home?status='.get_the_title().' | '.$shorten.' via @'.$twitter.' " rel="nofollow" target="_blank" onclick="javascript:pageTracker._trackPageview (\'/outbound/twitter.com\');"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easytoolbox/scripts/icon-share/twitter.jpeg" alt="Twitter" title="Twitter" ></a>';
+	$twitter='<a href="http://twitter.com/home?status='.get_the_title().' | '.$shorten.' via @'.$twitter.' " rel="nofollow" target="_blank" onclick="javascript:pageTracker._trackPageview (\'/outbound/twitter.com\');"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/twitter.jpeg" alt="Twitter" title="Twitter" ></a>';
 
 	}
 	
 	if (empty($twitter)) {
 	
-	$twitter='<a href="http://twitter.com/home?status='.get_the_title().' | '.$shorten.' " rel="nofollow" target="_blank" onclick="javascript:pageTracker._trackPageview (\'/outbound/twitter.com\');"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easytoolbox/scripts/icon-share/twitter.jpeg" alt="Twitter" title="Partager sur Twitter" ></a>';
+	$twitter='<a href="http://twitter.com/home?status='.get_the_title().' | '.$shorten.' " rel="nofollow" target="_blank" onclick="javascript:pageTracker._trackPageview (\'/outbound/twitter.com\');"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/twitter.jpeg" alt="Twitter" title="Partager sur Twitter" ></a>';
 	
 	}
 	
 	// Facebook
-	$facebook='<a href="http://www.facebook.com/sharer.php?u='.htmlspecialchars($url).'&t='.get_the_title().'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easytoolbox/scripts/icon-share/facebook.gif" alt="Facebook" title="share on facebook" ></a>';
+	$facebook='<a href="http://www.facebook.com/sharer.php?u='.htmlspecialchars($url).'&t='.get_the_title().'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/facebook.gif" alt="Facebook" title="share on facebook" ></a>';
 	
 	// netvibes
-	$netvibes='<a href="http://www.netvibes.com/share?url='.htmlspecialchars($url).'&title='.get_the_title().'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easytoolbox/scripts/icon-share/netvibes.png" alt="Netvibes" title="shre on netvibes" ></a>';
+	$netvibes='<a href="http://www.netvibes.com/share?url='.htmlspecialchars($url).'&title='.get_the_title().'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/netvibes.png" alt="Netvibes" title="shre on netvibes" ></a>';
 	    
 	// Delicious
-	    $delicious='<a href="http://del.icio.us/post?url='.urlencode(get_permalink($post->ID)).'&title='.urlencode(get_the_title()).'&notes='.$des.'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easytoolbox/scripts/icon-share/delicious.png" alt="Delicious" title="Partager sur Del.ico.us" ></a>';
+	    $delicious='<a href="http://del.icio.us/post?url='.urlencode(get_permalink($post->ID)).'&title='.urlencode(get_the_title()).'&notes='.$des.'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/delicious.png" alt="Delicious" title="Partager sur Del.ico.us" ></a>';
 
 	// Technoratie	    
-	    $technoratie='<a href="http://technorati.com/cosmos/search.html?url='.urlencode(get_permalink($post->ID)).'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easytoolbox/scripts/icon-share/technorati.png" alt="Technorati" title="Partager sur Technorati"  ></a>';
+	    $technoratie='<a href="http://technorati.com/cosmos/search.html?url='.urlencode(get_permalink($post->ID)).'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/technorati.png" alt="Technorati" title="Partager sur Technorati"  ></a>';
 	    
 	// Wikio
-	$wikio='<a href="http://www.wikio.fr/vote?domain='.$siteurl.'&title='.$url.'" target="_blank" rel="nofollow"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easytoolbox/scripts/icon-share/wikio.gif" alt="Wikio" title="Share on Wikio" ></a>';
+	$wikio='<a href="http://www.wikio.fr/vote?domain='.$siteurl.'&title='.$url.'" target="_blank" rel="nofollow"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/wikio.gif" alt="Wikio" title="Share on Wikio" ></a>';
 
 	// DIGG  
-	    $digg='<a href="http://digg.com/submit?phase=2&url='.urlencode(get_permalink($post->ID)).'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easytoolbox/scripts/icon-share/digg.gif" alt="Digg" title="Share on DIGG" ></a>';	    
+	    $digg='<a href="http://digg.com/submit?phase=2&url='.urlencode(get_permalink($post->ID)).'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/digg.gif" alt="Digg" title="Share on DIGG" ></a>';	    
 }	
 
 	// Adsense
