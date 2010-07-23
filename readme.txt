@@ -23,7 +23,7 @@ You never have to put your hands in your source code. Easytoolbox will add many 
 * Your RSS feeds optimize with Feedburner,
 
 = Monetize =
-You will be able to very simply add Google Adsense advertising on your articles and your thanks to the new Sidebar Widgets. 
+You will be able to very simply add Google Adsense advertising on your articles and your Sidebar (Widgets). 
 
 = Languages =
 Easytoolbox is Multi-language
