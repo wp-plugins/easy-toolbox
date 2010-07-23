@@ -3,7 +3,7 @@
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
 Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Analytics and more ....
-Version: 0.2.97
+Version: 0.2.98
 Author: Frederic Galline;
 Author URI: http://galline.fr
 License: A "Slug" license name e.g. GPL2
@@ -31,7 +31,7 @@ load_plugin_textdomain( 'easytoolbox', false, basename(dirname(__FILE__)) . '/la
 
 
 // Version du plugin
-$_SESSION['version'] = "0.2.97";
+$_SESSION['version'] = "0.2.98";
 
 // ajouter le menu en admin
 function admin_menu() {
@@ -187,9 +187,9 @@ function easytoolbox_index() {
 			        </tr>
 			        
 			        <tr valign="bottom">
-				        <td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/option.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/style.png"/></a></td>
-				        <td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/option.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/money.png"/></a></td>
-						<td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/help.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/aide.png"/></a></td>
+				        <td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easy-toolbox/option.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/style.png"/></a></td>
+				        <td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easy-toolbox/option.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/money.png"/></a></td>
+						<td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easy-toolbox/help.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/aide.png"/></a></td>
 						
 					</tr>
 				</table>
