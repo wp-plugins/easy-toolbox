@@ -25,7 +25,7 @@
 					<p>Color Picker : <a target="blank" href="http://jscolor.com">JScolor</a></p>
 					<p>Popup AJAX : <a target="blank" href="http://fancybox.net">FancyBox</a></p>
 					<p>Illustration : <a target="blank" href="http://artdesigner.lv">ArtDesigner</a>, <a href="http://harwen.net">Harwen Zhang</a>.</p>
-					<p><?php _e('Spécial thank to :', 'easytoolbox'); ?> <a target="blank" href="http://twitter.com/sebgregoire">Seb Gregoire</a>, <a target="blank" href="http://demarcq.net">Demarcq.net</a>,  <a target="blank" href="http://twitter.com/laurentfalorni">Laurent Falorni</a></p>
+					<p><?php _e('Spécial thank to :', 'easytoolbox'); ?> <a target="blank" href="http://twitter.com/sebgregoire">Seb Gregoire</a>, <a target="blank" href="http://demarcq.net">Demarcq.net</a>,  <a target="blank" href="http://twitter.com/laurentfalorni">Laurent Falorni</a>,  <a target="blank" href="http://www.geekeries.fr/">Valentin Brandt ( geekerie.fr )</a></p>
 								
 				</div>  <!-- inside --> 
 			</div>  <!-- postbox --> 
