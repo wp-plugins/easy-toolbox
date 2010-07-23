@@ -78,7 +78,7 @@ function etb_settings (){
 
 // CSS de l'admin
 function admin_css() {	
-	$admincss = plugins_url().'/easytoolbox/admin.css';
+	$admincss = plugins_url().'/easy-toolbox/admin.css';
 	echo '<link rel="stylesheet" type="text/css" href="'.$admincss.'" type="text/css" />';
 }
 
@@ -86,11 +86,11 @@ add_action('admin_head', 'admin_css');
 
 // javascript
 function admin_js() {	
-		echo "\n".'<script type="text/javascript" src="'.WP_PLUGIN_URL . '/easytoolbox/js/jscolor/jscolor.js"></script>'."\n";
+		echo "\n".'<script type="text/javascript" src="'.WP_PLUGIN_URL . '/easy-toolbox/js/jscolor/jscolor.js"></script>'."\n";
 		echo '<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>'."\n";
-		echo '<script type="text/javascript" src="'.WP_PLUGIN_URL . '/easytoolbox/js/fancybox/jquery.fancybox-1.3.1.pack.js"></script>'."\n";
-		echo '<script type="text/javascript" src="'.WP_PLUGIN_URL . '/easytoolbox/js/fancybox/jquery.easing-1.3.pack.js"></script>'."\n";
-		echo '<link rel="stylesheet" href="'.WP_PLUGIN_URL . '/easytoolbox/js/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />'."\n";
+		echo '<script type="text/javascript" src="'.WP_PLUGIN_URL . '/easy-toolbox/js/fancybox/jquery.fancybox-1.3.1.pack.js"></script>'."\n";
+		echo '<script type="text/javascript" src="'.WP_PLUGIN_URL . '/easy-toolbox/js/fancybox/jquery.easing-1.3.pack.js"></script>'."\n";
+		echo '<link rel="stylesheet" href="'.WP_PLUGIN_URL . '/easy-toolbox/js/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />'."\n";
 			
 }
 
@@ -146,14 +146,14 @@ function easytoolbox_index() {
 
 			<div class="postbox_dark" >
 				<div class="home_dark" >
-				<img src= "<?PHP echo WP_PLUGIN_URL ?>/easytoolbox/images/easytoolbox_text_logo.png" width="300px" height="auto"/>
+				<img src= "<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/easytoolbox_text_logo.png" width="300px" height="auto"/>
 				<P><?php _e('A plugin made for those who do not understand big things from geek stuff, but want an efficient, simple and customizable blog.','easytoolbox'); ?></p>
 				<p><i><?php echo $_SESSION['maj'] ?></i></a>
 				</div>
 				
 				<div class="inside_dark">
 					<div class="theme_cover">
-					<a href="http://easytoolbox.net" target="blank"><img src= "<?PHP echo WP_PLUGIN_URL ?>/easytoolbox/images/logo_easytoolbox.png" width="180px" height="auto"/></a>
+					<a href="http://easytoolbox.net" target="blank"><img src= "<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/logo_easytoolbox.png" width="180px" height="auto"/></a>
 					</div>
 				<P><?php _e('Plugin version :','easytoolbox'); ?><a href="http://easytoolbox.net" target="blank"> <?php echo $_SESSION['version'] ?></a></p>
 				<P><?php _e('By :','easytoolbox'); ?> <a href="http://twitter.com/fredericgalline" target="blank">Fr&eacute;d&eacute;ric Gallin&eacute;</a></p>
@@ -161,7 +161,7 @@ function easytoolbox_index() {
 				<P><?php _e('Follow us on twitter :','easytoolbox'); ?> <a href="http://twitter.com/easytoolbox" target="blank">@EasyToolBox</a></p>
 				<hr style="color:#999999;">
 				<div style="margin-top:15px;vertical-align:top;">
-			<a href="http://galline.fr" style="cursor:default;text-decoration:none;color:#eeeeee;vertical-align:top;"><?php _e('Share', 'easytoolbox') ?> </a><a href="http://twitter.com/home?status=<?php echo "A great Wordpress Plugin on http://easytoolbox.net ( via : @easytoolbox )" ?>" rel="nofollow" target="_blank" onclick="javascript:pageTracker._trackPageview ('/outbound/twitter.com');"><img src="<?PHP echo WP_PLUGIN_URL ?>/easytoolbox/images/twitter-c.png" alt="Twitter" title="Share on Twitter" style="border:none;padding-top:0px;padding-left:5px;padding-right:0px;vertical-align:top;height:22px;"></a>
+			<a href="http://galline.fr" style="cursor:default;text-decoration:none;color:#eeeeee;vertical-align:top;"><?php _e('Share', 'easytoolbox') ?> </a><a href="http://twitter.com/home?status=<?php echo "A great Wordpress Plugin on http://easytoolbox.net ( via : @easytoolbox )" ?>" rel="nofollow" target="_blank" onclick="javascript:pageTracker._trackPageview ('/outbound/twitter.com');"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/twitter-c.png" alt="Twitter" title="Share on Twitter" style="border:none;padding-top:0px;padding-left:5px;padding-right:0px;vertical-align:top;height:22px;"></a>
 			<iframe src="http://www.facebook.com/plugins/like.php?href=<? bloginfo('url'); ?>&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:100px; height:20px; padding:0px;"></iframe>
 			</div>
 				</div>  <!-- inside --> 
@@ -187,11 +187,11 @@ function easytoolbox_index() {
 			        </tr>
 			        
 			        <tr valign="bottom">
-				        <td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/option.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easytoolbox/images/style.png"/></a></td>
+				        <td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/option.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/style.png"/></a></td>
 				        
 				        
-						<td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/option.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easytoolbox/images/money.png"/></a></td>
-						<td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/help.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easytoolbox/images/aide.png"/></a></td>
+						<td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/option.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/money.png"/></a></td>
+						<td valign="middle"><a href="<?php admin_url(admin.php) ?>?page=easytoolbox/help.php"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/aide.png"/></a></td>
 						
 					</tr>
 				</table>
