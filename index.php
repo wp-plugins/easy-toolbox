@@ -225,7 +225,5 @@ function easytoolbox_index() {
 </div>	<!-- wrap -->
 
 <?php
-
 }
-
 ?>
