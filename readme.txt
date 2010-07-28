@@ -17,7 +17,7 @@ You never have to put your hands in your source code. Easytoolbox will add many 
 = New options / New widgets =
 * Google Analytics to track your traffic,
 * SEO tools really simple but efficient,
-* Webmastertools,
+* Webmastertools, Bing Webmaster and Yahoo Site Explorer
 * Button "Like" facebook in your articles,
 * Logos "Share" to share your information on facebook, twitter, netvibes, Digg, Technorati, Wikio, Delicious ...
 * Your RSS feeds optimize with Feedburner,
@@ -44,7 +44,7 @@ Easytoolbox is Multi-language
 
 = Version 0.3.0 = 
 
-* More options Webmaster. Add Bin Webmaster and Yahoo Site Explorer
+* More options Webmaster. Add Bing Webmaster and Yahoo Site Explorer
 
 = Version 0.2.5 = 
 
