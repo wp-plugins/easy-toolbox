@@ -42,6 +42,10 @@ Easytoolbox is Multi-language
 
 == Version History ==
 
+= Version 0.3.0 = 
+
+* More options Webmaster. Add Bin Webmaster and Yahoo Site Explorer
+
 = Version 0.2.5 = 
 
 * Bug fixes
