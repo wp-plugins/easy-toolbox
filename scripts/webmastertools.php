@@ -3,9 +3,19 @@
 function webmastertools() {
 
 $webmastertools = get_option('etb_webmastertools');
+$bing_webmaster = get_option('etb_bing_webmaster');
+$yahoo_site_explorer = get_option('etb_yahoo_site_explorer');
 
 if (isset($webmastertools) && !empty($webmastertools)) {
 echo '<meta name="google-site-verification" content="'. get_option('etb_webmastertools') .'"/>'."\n";
+}
+
+if (isset($bing_webmaster) && !empty($bing_webmaster)) {
+echo '<meta name="msvalidate.01" content="'. get_option('etb_bing_webmaster') .'"/>'."\n";
+}
+
+if (isset($yahoo_site_explorer) && !empty($yahoo_site_explorer)) {
+echo '<META name="y_key" content="'. get_option('etb_yahoo_site_explorer') .'"/>'."\n";
 }
 
 }
