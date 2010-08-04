@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EasyToolBox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-03 16:27+0100\n"
-"PO-Revision-Date: 2010-08-03 16:28+0100\n"
+"POT-Creation-Date: 2010-08-02 16:16+0100\n"
+"PO-Revision-Date: 2010-08-02 18:42+0100\n"
 "Last-Translator: frédéric <frederic.galline@gmail.com>\n"
-"Language-Team: frédéric Galline <info@easytoolbox.net>\n"
+"Language-Team: Ashu Kill <ashukarwar@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_c\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-Language: French\n"
-"X-Poedit-Country: FRANCE\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: Qatar\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox\n"
 
@@ -20,41 +20,40 @@ msgstr ""
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/help.php:10
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:42
 msgid "Help"
-msgstr "Aide"
+msgstr "مساعدة"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/help.php:13
 msgid "how does it work?"
-msgstr "Comment ça marche ?"
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/help.php:14
 msgid "Just add differents logins on the plugin options page. When you do that, some widgets and options are add to your Wordpress, it&apos;s realy easy."
-msgstr "Ajoutez simplement les différents \"login\" dans la page Options du plugins Easytoolbox. Lorsque vous l'aurez fait, des options et Widgets supplémentaires viendront s'ajouter à votre Wordpress de base."
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/help.php:16
 msgid "translation"
-msgstr "Traduction"
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/help.php:17
-#, fuzzy
 msgid "easytoolbox is available in several languages, English, French, Arabic."
-msgstr "Easytoolbox est disponible dans plusieurs langues : anglais, français, italien et arabe."
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/help.php:18
 msgid "If you want to help us to translate this plugin in other languages. Simply download the free software Poedit and the file \"easytoolbox.po\""
-msgstr "Si vous voulez nous aider à traduire ce plugin dans d'autres langues, c'est tres simple. Téléchargez le logiciel gratuit Poedit et le fichier langue easytoolbox.po."
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/help.php:19
 msgid "Open this file with Poedit and translate each sentence in the new language. Just send us the files generated. We integrate as quickly as possible."
-msgstr "Ouvrir ce fichier avec Poedit et traduire chaque phrase dans le nouveau langage. Envoyez nous simplement les fichiers générés en .po et .mo nous les intègrerons dés que possible."
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/help.php:20
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/help.php:21
 msgid "Download"
-msgstr "Télécharger"
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/help.php:28
 msgid "Spécial thank to :"
-msgstr "Remerciement :"
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/help.php:30
 msgid "Language Team"
@@ -62,171 +61,184 @@ msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:41
 msgid "Management Option"
-msgstr "Option"
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:41
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/option.php:6
 msgid "Options"
-msgstr "Options"
+msgstr "خيارات"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:42
 msgid "Help !!!!!!"
-msgstr "Aide !!!!"
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:152
+#, fuzzy
 msgid "A plugin made for those who do not understand big things from geek stuff, but want an efficient, simple and customizable blog."
-msgstr "Un plugin qui s' adresse à des non initiés qui veulent neanmoins un blog performant, simple et personnalisable."
+msgstr "وقدم البرنامج المساعد لأولئك الذين لا يفهمون أشياء كبيرة من الاشياء العبقري غريب الأطوار ، ولكن نريد بلوق فعالة وبسيطة وقابلة للتخصيص"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:160
+#, fuzzy
 msgid "Plugin version :"
-msgstr "Version du Plugin  :"
+msgstr "إصدار المساعد"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:161
+#, fuzzy
 msgid "By :"
-msgstr "Par :"
+msgstr "من قبل"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:162
+#, fuzzy
 msgid "Web :"
-msgstr "Site web :"
+msgstr "شبكة"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:163
+#, fuzzy
 msgid "Follow us on twitter :"
-msgstr "Nous suivre sur Twitter :"
+msgstr "twitter اتبع على"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:166
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/scripts/content.php:20
 msgid "Share"
-msgstr "Partager"
+msgstr "حصة"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:173
 msgid "Dashbord"
-msgstr "Tableau de bord"
+msgstr "لوحة القيادة"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:180
 msgid "Optimize / Socialize"
-msgstr "Optimiser / Soclialiser"
+msgstr "الأمثل / اجتماعيا"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:181
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:4
 msgid "Monetize"
-msgstr "Monétiser"
+msgstr "نقد"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:182
 msgid "Help / FAQ"
-msgstr "Aide / FAQ"
+msgstr "مساعدة / أسئلة وأجوبة"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:186
 msgid "Set your site options for the organization and referencing."
-msgstr "Configurez les options nécessaires à votre site pour l’organisation et le référencement."
+msgstr "إعداد موقعك خيارات لتنظيم والمراجع"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:187
 msgid "Add in the advertising on your site."
-msgstr "Ajouter de la publicité dans sur votre site."
+msgstr "إضافة في الإعلانات على موقعك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/index.php:188
 msgid "You do not understand, please help before you do anything! :)"
-msgstr "Vous ne comprenez pas tout, consultez l’aide avant de faire n’importe quoi ! :)"
+msgstr "أنت لا تفهم ، الرجاء المساعدة قبل أن تفعل أي شيء"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/option.php:65
 msgid "Save Changes"
-msgstr "Sauvegarder"
+msgstr "حفظ التغييرات"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:7
 msgid "You can put advertising on your site to monetize your hard work ..."
-msgstr "Vous pouvez mettre de la publicité sur votre site pour monétiser votre travail et votre dur labeur."
+msgstr "يمكنك وضع إعلان على موقع الويب الخاص بك لنقد عملكم الشاق"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:11
 msgid "Monetize your Blog"
-msgstr "Monétiser votre blog"
+msgstr "نقد مدونتك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:12
+#, fuzzy
 msgid "I want to put advertising on my site."
-msgstr "Je souhaite mettre de la publicité sur mon site."
+msgstr "اريد ان اضيف الإعلان على موقعي."
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:16
+#, fuzzy
 msgid "Put advertising in your content"
-msgstr "Placer de la publicité dans mes billets"
+msgstr "مكان الإعلان في المحتوى الخاص بك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:19
+#, fuzzy
 msgid "I don&apos;t want put advertisement in my content"
-msgstr "J'en veux pas dans mes billets !"
+msgstr "أنا لا أريد إضافة المحتوى في بلدي"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:20
+#, fuzzy
 msgid "At the top of my content (efficient)"
-msgstr "En haut du billet (efficace)"
+msgstr "على أعلى محتوى بلدي(جيد"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:21
+#, fuzzy
 msgid "At the Bottom of my content (moderatly good)"
-msgstr "En bas de mes billets (moyennement efficace)"
+msgstr "على الجزء السفلي من المحتوى الخاص بي (جيد"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:22
+#, fuzzy
 msgid "At the top and bottom of my content (very efficient)"
-msgstr "En haut et en bas de mes billets (très efficace)"
+msgstr "على أعلى وأسفل المحتوى الخاص بي (جيد"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:31
 msgid "Configure"
-msgstr "Configurer"
+msgstr "تكوين"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:49
 msgid "Enter your Adsense code for content"
-msgstr "Copiez votre script Google Adsense"
+msgstr "أدخل شفرة ادسنس للمحتوى"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:49
 msgid "Get code"
-msgstr "Obtenir un code"
+msgstr "الحصول على مدونة"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:49
 msgid "For add ads on your sidebar, just use the "
-msgstr "Pour ajouter de la publicité dans votre sidebar, utilisez simplement les "
+msgstr "لإضافة الإعلانات على الشريط الجانبي الخاص بك ، فقط استخدام"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:49
 msgid "Widgets"
-msgstr "Widgets"
+msgstr "الحاجيات"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:2
 msgid "Optimize"
-msgstr "Optimiser"
+msgstr "الأمثل"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:4
+#, fuzzy
 msgid "To optimize your ranking, please enter the information below"
-msgstr "Pour que le référencement de votre site soit optimum, veuillez entrer les informations suivantes."
+msgstr "لترتيب موقعك هو الأمثل ، الرجاء إدخال المعلومات الواردة أدناه"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:9
 msgid "Search engine optimization"
-msgstr "Optimisation pour les moteurs de recherche"
+msgstr "محرك البحث الأمثل"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:10
+#, fuzzy
 msgid "I wish EasyToolbox optimize my site for search engines. If you check this box, you must disable all other SEO plugins on your blog ... We take care of everything."
-msgstr "Je souhaite que EasyToolbox optimise mon site pour les moteurs de recherche. Si vous cochez cette case, vous devez impérativement désactiver les autres plugins SEO de votre blog,  EasyToolBox s'occupe de tout :)"
+msgstr "وأود EasyToolbox تحسين موقعي لمحركات البحث. إذا قمت بتحديد هذا المربع ، تحتاج إلى تعطيل جميع الإضافات وغيرها من كبار المسئولين الاقتصاديين في بلوق الخاص بك... سنهتم كل شيء"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:14
 msgid "Keywords"
-msgstr "Mots clés"
+msgstr "الكلمات الرئيسية"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:15
 msgid "Some search engines still use META keywords. To enhance your Search Engine Optimization (SEO), please enter the important keywords related to your editorial line. Maximum 10 and separated by a comma <i>(eg house, deocration, ecology)"
-msgstr "Certains moteurs de recherche utilisent les META Keywords. Pour augmenter vos chances d'apparaître dans ces moteurs, veuillez entrer les mots clés importants de votre thématique. Maximum 10 mots séparés par une virgule. <i>( Exemple : maison, décoration, écologie )"
+msgstr "بعض محركات البحث لا يزال استخدام الكلمات الرئيسية ميتا. لتعزيز محرك البحث الامثل (سيو) ، الرجاء إدخال الكلمات الرئيسية الهامة ذات الصلة خط التحرير الخاص. الحد الأقصى (10) ويفصل بينهما فاصلة منزل (<i>على سبيل المثال ، زخرفة ، والبيئة) "
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:25
 msgid "Enter your Google Analytics here, if you do not already have you can get one here : "
-msgstr "Entrez votre code Google Analytics ici. Si vous n'en avez pas encore, vous pouvez en obtenir un ici :"
+msgstr "أدخل جوجل تحليلات هنا ، إذا لم يكن لديك يمكنك الحصول على واحد هنا"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:31
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:50
 msgid "More options"
-msgstr "Plus d'options"
+msgstr "المزيد من الخيارات"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:40
 msgid "Webmaster Tools : "
-msgstr "Webmaster Tools : "
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:40
 msgid "Optimize your website with search engine tools"
-msgstr "Optimisez votre site pour les moteurs de recherche"
+msgstr ""
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:45
 msgid "Enter your Google WebmasterTools Code here, if you do not already have you can get one here : "
-msgstr "Entrez votre code Google Webmastertools ici. Si vous n'en avez pas encore, vous pouvez en obtenir un ici :"
+msgstr "أدخل جوجل أدوات مشرفي المواقع  قانون هنا ، إذا لم يكن لديك بالفعل يمكنك الحصول على واحد هنا"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:45
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:50
@@ -235,231 +247,231 @@ msgstr "Entrez votre code Google Webmastertools ici. Si vous n'en avez pas encor
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:15
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:24
 msgid "Subscribe"
-msgstr "Souscrire"
+msgstr "اشترك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:50
+#, fuzzy
 msgid "Enter your Bing Webmaster Code here, if you do not already have you can get one here : "
-msgstr "Entrez votre code Google Webmastertools ici. Si vous n'en avez pas encore un, vous pouvez l'obtenir là :"
+msgstr "أدخل جوجل أدوات مشرفي المواقع  قانون هنا ، إذا لم يكن لديك بالفعل يمكنك الحصول على واحد هنا"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:60
+#, fuzzy
 msgid "Enter your Yahoo Site Explorer Code here, if you do not already have you can get one here : "
-msgstr "Entrez votre login Feedburner ici. Si vous n'en avez pas encore un, inscrivez-vous ici :"
+msgstr "أدخل فيدبورنر رمز هنا ، إذا لم يكن لديك بالفعل يمكنك الحصول على واحد هنا"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:3
 msgid "Social networks and analysis tools"
-msgstr "Réseaux sociaux"
+msgstr "الشبكات الاجتماعية وأدوات التحليل"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:5
 msgid "For the well being of your blog, I strongly recommend you fill in all these fields. Your site will have much more chance of seeing its audience rise."
-msgstr "Pour la bonne réussite de votre blog, je vous recommande vivement de remplir tous ces champs. Votre site aura beaucoup plus de chance de voir son audience grimper."
+msgstr "من أجل رفاه من بلوق الخاص بك ، وإنني أوصي بشدة تكتب في جميع هذه الميادين. وسوف يكون موقعك فرصة أكبر بكثير من رؤية جمهوره ارتفاع"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:9
 msgid "Login Twitter"
-msgstr "Login Twitter "
+msgstr "الدخول التغريد (twitter)"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:10
 msgid "Enter your Twitter username here, if you do not already have you can get one here : "
-msgstr "Entrez votre login Twitter ici. Si vous n'en avez pas, inscrivez-vous ici :"
+msgstr "أدخل اسم المستخدم التغريد هنا ، إذا لم يكن لديك يمكنك الحصول على واحد هنا (twitter)"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:14
 msgid "Login feedburner "
-msgstr "Login feedburner "
+msgstr "الدخول فيدبورنر"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:15
 msgid "Enter your Feedburner code here, if you do not already have you can get one here : "
-msgstr "Entrez votre login Feedburner ici. Si vous n'en avez pas encore un, inscrivez-vous ici :"
+msgstr "أدخل فيدبورنر رمز هنا ، إذا لم يكن لديك بالفعل يمكنك الحصول على واحد هنا"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:22
 msgid "Login Facebook "
-msgstr "identifiant Facebook"
+msgstr "الدخول فيسبوك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:24
 msgid "Enter your Facebook Username here, if you do not already have you can get one here : "
-msgstr "Entrer votre Username Facebook. Si vous n'en avez pas, inscrivez-vous ici :"
+msgstr "أدخل اسم المستخدم هنا أمام ، إذا لم يكن لديك يمكنك الحصول على واحد هنا"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:28
 msgid "ID Facebook "
-msgstr "Login feedburner Facebook ID "
+msgstr "معرف الفيس بوك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:29
 msgid "To obtain your Facebook ID, go to this "
-msgstr "Pour obtenir votre ID Facebook, rendez-vous sur cette"
+msgstr "للحصول على اسم المستخدم الخاص بك فيسبوك ، انتقل إلى هذه"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:29
 msgid "page"
-msgstr "page"
+msgstr "صفحة"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:29
 msgid " then click on your username."
-msgstr "et cliquez sur votre nom."
+msgstr "ثم انقر على اسم المستخدم الخاص بك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:38
 msgid "Add button \"Like\" facebook as a result of my content."
-msgstr "Ajouter le bouton \"j'aime\" de Facebook à la suite de mes billets."
+msgstr "إضافة زر مثل فيسبوك نتيجة للمحتوى الخاص بي"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:38
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:43
 msgid "(advisable)"
-msgstr "(conseillé)"
+msgstr "(مستحسن)"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:43
 msgid "Add the \"share on social networks\" as a result of my tickets. "
-msgstr "Ajouter les logos \"partager\" des réseaux sociaux à la suite de mes billets."
+msgstr "إضافة مشاركة على الشبكات الاجتماعية نتيجة لتذاكر بلادي"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:61
+#, fuzzy
 msgid "Here is the Geeks place!"
-msgstr "Ici c'est le coin de GEEKS !"
+msgstr "هنا هو ركن من أركان المهوسون!"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:61
 msgid "Optional fields:"
-msgstr "Champs optionnels : "
+msgstr "الحقول الاختيارية"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:61
 msgid " If you do not know these services, or if you have not subscribed to your site, please leave blank and go your way ..."
-msgstr "Si vous ne connaissez pas ces services, ou si vous n'y avez pas souscrit, passez votre chemin ..."
+msgstr "إذا كنت لا تعرف هذه الخدمات ، أو إذا لم تكن قد قمت بالاشتراك في موقعك ، يرجى ترك فارغة وتذهب في طريق عودتك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:72
 msgid "Link for your Itunes Podcast"
-msgstr "Lien vers votre podcast iTunes"
+msgstr "وصلة لالبودكاست الخاصة بك اي تيونز"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/adsense.php:16
 msgid "Add advertising to your Sidebar"
-msgstr "Ajouter de la publicité dans votre Sidebar"
+msgstr "إضافة إلى الإعلان عن الشريط الجانبي الخاص بك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/adsense.php:17
 msgid "[ETB] Google Adsense Advertising"
-msgstr "Pub Google Adsense"
+msgstr "[ETB] جوجل ادسنس الإعلاني"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/adsense.php:61
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recent_activity.php:72
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/followme.php:87
 msgid "Title"
-msgstr "Titre"
+msgstr "لقب"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/adsense.php:67
 msgid "Code Adsense"
-msgstr "Code Adsense"
+msgstr "رمز ادسينس"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/adsense.php:73
 msgid "Get Code : "
-msgstr "Obtenir un code :"
+msgstr "الحصول على مدونة :"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recent_activity.php:17
 msgid "The Activity Feed plugin displays the most interesting recent activity taking place on your site"
-msgstr "Ce plugin révèle les actualités qui ont été le plus appréciées sur votre site par les utilisateurs de Facebook."
+msgstr "البرنامج المساعد تغذية النشاط يعرض النشاط الأكثر إثارة للاهتمام الأخيرة التي تجري على موقعك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recent_activity.php:21
 msgid "[ETB] Facebook Recent Activity"
-msgstr "[ETB] Facebook Activités récentes"
+msgstr "النشاط الأخير فيسبوك [ETB]"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recent_activity.php:78
 msgid "Width in pixels"
-msgstr "Largeur en pixel"
+msgstr "عرض بالبكسل"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recent_activity.php:84
 msgid "Height in Pixel"
-msgstr "Hauteur en pixel"
+msgstr "ارتفاع في بكسل"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recent_activity.php:92
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recommendations.php:96
 msgid "Show Header"
-msgstr "Voir l'en-tête"
+msgstr "وتظهر رأس"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recent_activity.php:97
 msgid "Border color"
-msgstr "Couleur de la bordure"
+msgstr "لون الحدود"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recent_activity.php:103
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recommendations.php:107
 msgid "Color Scheme"
-msgstr "Color Scheme"
+msgstr "نظام الألوان"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recent_activity.php:118
 msgid "The plugin is filled with activity from the user&eacute;s friends. If there isn&eacute;t enough friend activity to fill the plugin, it is backfilled with recommendations."
-msgstr "Ce plugin montre l'activité de vos amis sur Facebook."
+msgstr "انه البرنامج المساعد مليء نشاط من أصدقاء للمستخدم. إذا لم يكن هناك ما يكفي من النشاط صديق لملء البرنامج المساعد ، ويتم تعبئة دعمه للتوصيات"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recommendations.php:17
+#, fuzzy
 msgid "Add facebook's recommendations"
-msgstr "[ETB] Facebook Recommandations"
+msgstr "[ETB] توصيات فيسبوك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/fb_recommendations.php:21
 msgid "[ETB] Facebook Recommendations"
-msgstr "[ETB] Facebook Recommandations"
+msgstr "[ETB] توصيات فيسبوك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/followme.php:16
 msgid "Add social network logos in your Sidebar"
-msgstr "Ajouter les logos des réseaux sociaux sans votre sidebar"
+msgstr "إضافة شعارات شبكة اجتماعية في الشريط الجانبي الخاص بك"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/followme.php:17
 msgid "[ETB] Follow Me"
-msgstr "[ETB] Follow Me"
+msgstr "[ETB] اتبع لي"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/followme.php:94
 msgid "Example"
-msgstr "Exemple"
+msgstr "مثال"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/mailinglist.php:17
 msgid "Add an automatic MailingList through Feedburner"
-msgstr "Ce widget ajoute une mailing list automatique grâce à Feedburner."
+msgstr "أضف إلى قائمة بريدية التلقائي من خلال فيدبورنر"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/mailinglist.php:21
 msgid "[ETB] Mailing list"
-msgstr "[ETB] Mailing list"
+msgstr "[ETB] قائمة البريدية"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/mailinglist.php:70
 msgid "This widget will use the mailing list option Feedburner. To work correctly, go into your interface and start feedburner [email subscription] in the [publicize]. Then save the bottom of the page."
-msgstr "Ce widget utilise l'option mailing-list de Feedburner. Pour l'activer correctement, vous devez aller dans l'interface Feedburner et autoriser [email subscription] dans la partie [publicize]. Puis sauvegardez en bas de la page."
+msgstr "وسوف تستخدم هذه القطعة القائمة البريدية فيدبورنر الخيار. نشر] للعمل بشكل صحيح ، والذهاب إلى واجهة الخاص بك وبدء [فيدبورنر البريد الإلكتروني للتسجيل] في [. ثم احفظ أسفل الصفحة"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/mailinglist.php:71
 msgid "Direct Link"
-msgstr "Lien direct"
+msgstr "وصلة مباشرة"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/twitter.php:15
+#, fuzzy
 msgid "Add your last tweets with the Twitter Goodies"
-msgstr "Ajouter vos derniers twits avec le goodies Twitter"
+msgstr "إضافة الحمقى الخاص الماضي مع الأشياء الجيدة Twiiter"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/twitter.php:16
+#, fuzzy
 msgid "[ETB] Your last tweets"
-msgstr "[ETB] Vos derniers Twits"
+msgstr "[ETB] الأحمق الماضي(Twit's)"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/twitter.php:108
 msgid "Widget Color"
-msgstr "Couleur du Widget"
+msgstr "القطعة لون"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/twitter.php:114
 msgid "Login Color"
-msgstr "Couleur du Login"
+msgstr "الدخول لون"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/twitter.php:120
 msgid "Background Color"
-msgstr "Couleur du fond"
+msgstr "لون الخلفية"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/twitter.php:126
 msgid "Fonts Color"
-msgstr "Couleur des polices"
+msgstr "حرة لون"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/widgets/twitter.php:132
 msgid "Link Color"
-msgstr "Couleur des liens"
+msgstr "لون ارتباط"
 
-#~ msgid "Illustration : "
-#~ msgstr "Illustration :"
+#~ msgid "Comming Soon"
+#~ msgstr "قريبا"
 
 #~ msgid ""
 #~ "If you have not yet subscribed to Google Adsense, you can do easily and "
 #~ "retrieve your login."
 #~ msgstr ""
-#~ "Si vous n'avez pas encore souscrit à Google Adsense, vous pouvez le faire "
-#~ "très simplement et ainsi récupérer votre login."
+#~ "إذا كنت لم تنضم بعد إلى ادسينس ، يمكنك القيام بذلك بسهولة واسترداد تسجيل "
+#~ "الدخول(google)"
 
 #~ msgid "Subscribe to Google Adsense"
-#~ msgstr "Souscrire à Google Adsense"
-
-#~ msgid "Comming Soon"
-#~ msgstr "Bientôt"
-
-#~ msgid "Download easytoolbox.po"
-#~ msgstr "Télécharger easytoolbox.po"
+#~ msgstr "الاشتراك في جوجل أدسنس"
 
 #~ msgid "Add recommendations facebook"
-#~ msgstr "Ajouter les recommendations Facebook"
+#~ msgstr "أضف توصيات فيسبوك"
