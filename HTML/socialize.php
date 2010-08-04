@@ -2,17 +2,17 @@
 	
 	<h3><?php _e('Social networks and analysis tools','easytoolbox'); ?></h3>
 		<div class="inside" >
-		<P><?php _e('For the well being of your blog, I strongly recommend you fill in all these fields. Your site will have much more chance of seeing its audience rise.','easytoolbox'); ?></p>
+		<P><?php _e('NB: We strongly recommend to complete all these fields. Your site will have much more chance to increase its frequentation','easytoolbox'); ?></p>
 		    
 		    <table class="form-table" style="margin-bottom:10px">
 		        <tr valign="top">
 		        <th scope="row" ><a href="http://twitter.com" target="blank"><img src="../wp-content/plugins/easy-toolbox/images/icon/twitter.png" width="20px" height="20px"/></a><?php _e('Login Twitter', 'easytoolbox'); ?><a id="inline" class="gallery" href="#help_twitter" style="cursor:help;">?</a></th>		        
-				<div style="display:none"><div id="help_twitter"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/HTML/help/help-twitter.png" /><br><?php _e('Enter your Twitter username here, if you do not already have you can get one here : ','easytoolbox'); ?><a target="blank" href="http://www.twitter.com"><?php _e('Subscribe', 'easytoolbox'); ?></a>
+				<div style="display:none"><div id="help_twitter"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/HTML/help/help-twitter.png" /><br><?php _e('Enter your Twitter username here, if you do not already have it, you can get one here : ','easytoolbox'); ?><a target="blank" href="http://www.twitter.com"><?php _e('Subscribe', 'easytoolbox'); ?></a>
 </div></div>
 				<td><input type="text" name="etb_twitter" value="<?php echo get_option('etb_twitter'); ?>"/></td>
 		        
 		        <th scope="row"><a href="http://feedburner.google.com/" target="blank"><img src="../wp-content/plugins/easy-toolbox/images/icon/feedburner.png" width="20px" height="20px"/></a><?php _e('Login feedburner ', 'easytoolbox'); ?><a id="inline" class="gallery" href="#help_feedburner" style="cursor:help;">?</a></th>
-		       	<div style="display:none"><div id="help_feedburner"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/HTML/help/help-feedburner.png"/><br><?php _e('Enter your Feedburner code here, if you do not already have you can get one here : ','easytoolbox'); ?><a target="blank" href="http://www.feedburner.com"><?php _e('Subscribe', 'easytoolbox'); ?></a>
+		       	<div style="display:none"><div id="help_feedburner"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/HTML/help/help-feedburner.png"/><br><?php _e('Enter your Feedburner code here, if you do not already it, have you can get one here : ','easytoolbox'); ?><a target="blank" href="http://www.feedburner.com"><?php _e('Subscribe', 'easytoolbox'); ?></a>
 </div></div>
 
 		        <td><input type="text" name="etb_feedburner" value="<?php echo get_option('etb_feedburner'); ?>" /></td>
@@ -21,7 +21,7 @@
 		        <tr valign="top">
 		        <th scope="row"><a href="http://facebook.com" target="blank"><img src="../wp-content/plugins/easy-toolbox/images/icon/facebook.png" width="20px" height="20px"/></a><?php _e('Login Facebook ', 'easytoolbox'); ?><a id="inline" class="gallery" href="#help_facebook" style="cursor:help;">?</a></th>
 		        		        
-				<div style="display:none"><div id="help_facebook"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/HTML/help/help-facebook.png"/><br><?php _e('Enter your Facebook Username here, if you do not already have you can get one here : ','easytoolbox'); ?><a target="blank" href="http://www.facebook.com/username/"><?php _e('Subscribe', 'easytoolbox'); ?></a>
+				<div style="display:none"><div id="help_facebook"><img src="<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/HTML/help/help-facebook.png"/><br><?php _e('Enter your Facebook Username here, if you do not already have it, you can get one here : ','easytoolbox'); ?><a target="blank" href="http://www.facebook.com/username/"><?php _e('Subscribe', 'easytoolbox'); ?></a>
 </div></div>
 				<td><input type="text" name="etb_facebook" value="<?php echo get_option('etb_facebook'); ?>" /><br></td>
 		        
@@ -40,7 +40,7 @@
 		        
 		        <tr valign="top">
 		        <th scope="row"><img src="../wp-content/plugins/easy-toolbox/images/share.png" /></th>
-		        <td><input type="checkbox" class="checkbox" name="etb_choix_share" id="etb_choix_share" value="1" <?php checked('1', get_option('etb_choix_share')); ?> /><?php _e('Add the "share on social networks" as a result of my tickets. ','easytoolbox'); ?><i><?php _e('(advisable)','easytoolbox'); ?></i></td>
+		        <td><input type="checkbox" class="checkbox" name="etb_choix_share" id="etb_choix_share" value="1" <?php checked('1', get_option('etb_choix_share')); ?> /><?php _e('Add the \"share on social networks\" after my posts. ','easytoolbox'); ?><i><?php _e('(advisable)','easytoolbox'); ?></i></td>
 		        
    
 		        </tr>
@@ -58,7 +58,7 @@
 			<div id="ls_balises"  style="display:none;">
 			<div><img src="../wp-content/plugins/easy-toolbox/images/pointe_haute.png" style="margin:0px 0 0 260px" width="20px" height="9px"/></div>
 			<div class="options">
-			<p><b><?php _e('Here is the Geeks place!','easytoolbox'); ?></b> <i><?php _e('Optional fields:','easytoolbox'); ?></i><?php _e(' If you do not know these services, or if you have not subscribed to your site, please leave blank and go your way ...','easytoolbox'); ?></p>
+			<p><b><?php _e('Here is the Geek\'s place!','easytoolbox'); ?></b> <i><?php _e('Optional fields:','easytoolbox'); ?></i><?php _e('  If you don\'t know these services, or if you haven\'t subscribed, please leave blank and go your way ...','easytoolbox'); ?></p>
 				<table class="form-table">
 		        <tr valign="top">
 		        <th scope="row"><a href="http://flickr.com" target="blank"><img src="../wp-content/plugins/easy-toolbox/images/icon/flickr.png" width="20px" height="20px"/></a>Login Flickr</th>
