@@ -9,17 +9,17 @@
 		<table class="form-table">
 		        <tr valign="top">
 		        <th scope="row"><img src="../wp-content/plugins/easy-toolbox/images/money.png" width="20px" height="20px"/><?php _e('Monetize your Blog','easytoolbox'); ?></th>
-		        <td><input type="checkbox" class="checkbox" name="etb_choix_adsense" id="etb_choix_adsense" value="1" <?php checked('1', get_option('etb_choix_adsense')); ?> /><?php _e('I want to put advertising on my site.','easytoolbox'); ?></td>
+		        <td><input type="checkbox" class="checkbox" name="etb_choix_adsense" id="etb_choix_adsense" value="1" <?php checked('1', get_option('etb_choix_adsense')); ?> /><?php _e('I want to show advertising on my website.','easytoolbox'); ?></td>
 		        </tr>
 		        
 		        <tr valign="top">
 		        <th><?php _e('Put advertising in your content','easytoolbox'); ?></th>
 		        <td>
 		        <select name="etb_ad_content" id="etb_ad_content">
-		        	<option value="0" <?php if(get_option('etb_ad_content') == '0'){?>selected="selected"<?php }?>><?php _e('I don&apos;t want put advertisement in my content','easytoolbox'); ?></option>
+		        	<option value="0" <?php if(get_option('etb_ad_content') == '0'){?>selected="selected"<?php }?>><?php _e('I don&apos;t want advertisement in my content','easytoolbox'); ?></option>
 		        	<option value="1" <?php if(get_option('etb_ad_content') == '1'){?>selected="selected"<?php }?>><?php _e('At the top of my content (efficient)','easytoolbox'); ?></option>
 		        	<option value="2" <?php if(get_option('etb_ad_content') == '2'){?>selected="selected"<?php }?> ><?php _e('At the Bottom of my content (moderatly good)','easytoolbox'); ?></option>
-		        	<option value="3" <?php if(get_option('etb_ad_content') == '3'){?>selected="selected"<?php }?>><?php _e('At the top and bottom of my content (very efficient)','easytoolbox'); ?></option>
+		        	<option value="3" <?php if(get_option('etb_ad_content') == '3'){?>selected="selected"<?php }?>><?php _e('At the top and at the bottom of my content (very efficient)','easytoolbox'); ?></option>
 		        </select><br>
 		        </td>
 			</tr>  
