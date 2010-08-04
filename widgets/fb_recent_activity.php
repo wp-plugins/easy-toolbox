@@ -14,7 +14,7 @@ class fbrecentactivity extends WP_Widget {
 
     function fbrecentactivity() {
 		//les options du widget vont Ãªtre le nom de la classe (classname) et sa description
-		$widget_ops = array('classname' => 'fbrecentactivity', 'description' => __( "The Activity Feed plugin displays the most interesting recent activity taking place on your site") );
+		$widget_ops = array('classname' => 'fbrecentactivity', 'description' => __( "The Activity Feed plugin displays the most appreciated recent activity of your website") );
 		//les contrÃ´les permettent de dÃ©finir les dimensions du widget dans l'administration WP
 		//$control_ops = array('width' => 300, 'height' => 300);
 		//dans la parenthÃ¨se centrale, Ã©crivez le nom du widget qui apparaÃ®tra dans l'admin de WP

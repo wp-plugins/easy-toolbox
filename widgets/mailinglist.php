@@ -67,7 +67,7 @@ class mailinglist extends WP_Widget {
                 </label>
             </p>
             <hr>
-            <p><small><?php _e('This widget will use the mailing list option Feedburner. To work correctly, go into your interface and start feedburner [email subscription] in the [publicize]. Then save the bottom of the page.', 'easytoolbox'); ?></small></p>
+            <p><small><?php _e('This widget will use the mailing list option Feedburner. To work correctly, go into your interface and start feedburner [email subscription] in the [publicize]. Then click save at the bottom of the page.', 'easytoolbox'); ?></small></p>
             <p><?php _e('Direct Link', 'easytoolbox'); ?><a href="http://feedburner.google.com" target="blank">FeedBurner</a></p>
 <?php            
     }
