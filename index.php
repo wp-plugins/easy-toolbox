@@ -149,7 +149,7 @@ function easytoolbox_index() {
 			<div class="postbox_dark" >
 				<div class="home_dark" >
 				<img src= "<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/easytoolbox_text_logo.png" width="300px" height="auto"/>
-				<P><?php _e('A plugin made for those who do not understand big things from geek stuff, but want an efficient, simple and customizable blog.','easytoolbox'); ?></p>
+				<P><?php _e('A plugin made for those who don\'t understand web-programmation, but who want an efficient, simple and customizable blog.','easytoolbox'); ?></p>
 				<p><i><?php echo $_SESSION['maj'] ?></i></a>
 				</div>
 				
@@ -170,7 +170,7 @@ function easytoolbox_index() {
 			</div>  <!-- postbox -->
 
 			<div class="postbox" style="width:600px;float:left;" >
-			<h3><?php _e('Dashbord','easytoolbox'); ?></h3>
+			<h3><?php _e('Dashboard','easytoolbox'); ?></h3>
 				<div class="inside">
 				
 				
@@ -183,9 +183,9 @@ function easytoolbox_index() {
 			        </tr>
 			        
 			        <tr valign="top">
-				        <td><?php _e('Set your site options for the organization and referencing.','easytoolbox'); ?></td>
-				        <td><?php _e('Add in the advertising on your site.','easytoolbox'); ?></td>
-				        <td><?php _e('You do not understand, please help before you do anything! :)','easytoolbox'); ?></td>
+				        <td><?php _e('Set your option to organize and refer your website','easytoolbox'); ?></td>
+				        <td><?php _e('Add advertising on your website.','easytoolbox'); ?></td>
+				        <td><?php _e('You don\'t understand, go to \'help\' before making a mistake! :)','easytoolbox'); ?></td>
 			        </tr>
 			        
 			        <tr valign="bottom">
