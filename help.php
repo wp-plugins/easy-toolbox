@@ -11,12 +11,12 @@
 				<div class="inside">
 				
 				<h4><?php _e('how does it work?', 'easytoolbox'); ?></h4>
-					<P><?php _e('Just add differents logins on the plugin options page. When you do that, some widgets and options are add to your Wordpress, it&apos;s realy easy.', 'easytoolbox') ?></p>
+					<P><?php _e('Add the several \"login\" in the Easytoolbox\'s plugins Options page. When it\'s done, some widgets and options will be added to your Wordpress.', 'easytoolbox') ?></p>
 					
 				<h4><?php _e('translation', 'easytoolbox') ?></h4>
 					<p><?php _e('easytoolbox is available in several languages, English, French, Arabic.', 'easytoolbox') ?></p>
 					<p><?php _e('If you want to help us to translate this plugin in other languages. Simply download the free software Poedit and the file "easytoolbox.po"', 'easytoolbox') ?></p>
-					<p><?php _e('Open this file with Poedit and translate each sentence in the new language. Just send us the files generated. We integrate as quickly as possible.', 'easytoolbox') ?></p>
+					<p><?php _e('Open this file with Poedit and translate each sentences in the new language. Just send us the generated file. We will integrate it quickly as posible.', 'easytoolbox') ?></p>
 					<p>&rarr; <a href="http://www.poedit.net/" target="blank"><?php _e('Download', 'easytoolbox') ?></a> Poedit</p>
 					<p>&rarr; <a href="http://plugins.svn.wordpress.org/easy-toolbox/trunk/languages/easytoolbox.po" target="blank"><?php _e('Download', 'easytoolbox') ?></a> easytoolbox.po</p>
 					<br/>
