@@ -30,7 +30,7 @@ if ($choix_share != "") {
 
 	if (!empty($twitter)) {
 	
-	$twitter='<a href="http://twitter.com/home?status='.get_the_title().' | '.$shorten.' via @'.$twitter.' " rel="nofollow" target="_blank" onclick="javascript:pageTracker._trackPageview (\'/outbound/twitter.com\');"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/twitter.jpeg" alt="Twitter" title="Twitter" ></a>';
+	$twitter='<a href="http://twitter.com/home?status='.get_the_title().' | '.$url.' via @'.$twitter.' " rel="nofollow" target="_blank" onclick="javascript:pageTracker._trackPageview (\'/outbound/twitter.com\');"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/twitter.jpeg" alt="Twitter" title="Twitter" ></a>';
 
 	}
 	
