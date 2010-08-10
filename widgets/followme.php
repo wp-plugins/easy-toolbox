@@ -46,7 +46,7 @@ class followme extends WP_Widget {
 		if (empty($feedburner)) {echo '<a href="'.get_bloginfo('rss2_url').'" target="blank" rel="nofollow"><img src="'.WP_PLUGIN_URL.'/easy-toolbox/widgets/icon-pool/RSS.png" alt="Flux RSS" title="Notre flux RSS" style="border:none;padding-top:10px;padding-right:10px;vertical-align:middle;"></a>';}
 		
 		$flickr = get_option('etb_flickr');
-		if (!empty($flickr)) {echo '<a href="http://flickr.com/'.$flickr.'" target="blank" rel="nofollow"><img src="'.WP_PLUGIN_URL.'/easy-toolbox/widgets/icon-pool/Flickr.png" alt="Flickr" titles="Nos photos Flickr" style="border:none;padding-top:10px;padding-right:10px;vertical-align:middle;"></a>';}
+		if (!empty($flickr)) {echo '<a href="http://www.flickr.com/photos/'.$flickr.'" target="blank" rel="nofollow"><img src="'.WP_PLUGIN_URL.'/easy-toolbox/widgets/icon-pool/Flickr.png" alt="Flickr" titles="Nos photos Flickr" style="border:none;padding-top:10px;padding-right:10px;vertical-align:middle;"></a>';}
 		
 		$netvibes = get_option('etb_netvibes');
 		if (!empty($netvibes) && !empty($feedburner)) {echo '<a href="http://www.netvibes.com/subscribe.php?type=rss&url=http://feeds.feedburner.com/'.$feedburner.'" target="blank" rel="nofollow"><img src="'.WP_PLUGIN_URL.'/easy-toolbox/widgets/icon-pool/netvibes.png" alt="Netvibes" title="Netvibes" style="border:none;padding-top:10px;padding-right:10px;vertical-align:middle;"></a>';}
