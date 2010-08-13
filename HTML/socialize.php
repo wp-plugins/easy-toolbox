@@ -30,17 +30,31 @@
 
 		       	<td><input type="text" name="etb_facebookid" value="<?php echo get_option('etb_facebookid'); ?>" /></td>
 		        </tr>
-		    </table>    
-		        
+		    </table>
+		     
+		    <?php $choix_tweet_format = get_option('etb_tweet_format'); ?> 
+		    
+		    <table class="form-table">
+		        <tr valign="top">
+		        <th scope="row"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://easytoolbox.net" data-text="I love this plugin wordpress http://easytoolbox.net" data-count="<?php echo $choix_tweet_format ?>" data-via="easytoolbox">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></th>
+		        <td><input type="checkbox" class="checkbox" id="etb_choix_tweet" name="etb_choix_tweet" value="1" <?php checked('1', get_option('etb_choix_tweet')); ?> /><?php _e('Add twiter button as a result of my content','easytoolbox'); ?><i> <?php _e('(advisable)','easytoolbox'); ?></i>. <?php _e('Format','easytoolbox'); ?> <select name="etb_tweet_format" id="etb_tweet_format">
+		        	<option value="vertical" <?php if(get_option('etb_tweet_format') == 'vertical'){?>selected="selected"<?php }?>><?php _e('vertical count','easytoolbox'); ?></option>
+		        	<option value="horizontal" <?php if(get_option('etb_tweet_format') == 'horizontal'){?>selected="selected"<?php }?>><?php _e('horizontal count','easytoolbox'); ?></option>
+		        	<option value="none" <?php if(get_option('etb_tweet_format') == 'none'){?>selected="selected"<?php }?> ><?php _e('logo only','easytoolbox'); ?></option>
+		        </select>
+		        </td>
+		        </tr>
+		    </table>
+ 
 		    <table class="form-table">
 		        <tr valign="top">
 		        <th scope="row"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Feasytoolbox.net&amp;layout=button_count&amp;show_faces=false&amp;width=150&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe></th>
-		        <td><input type="checkbox" class="checkbox" id="etb_choix_like" name="etb_choix_like" value="1" <?php checked('1', get_option('etb_choix_like')); ?> /><?php _e('Add button "Like" facebook as a result of my content.','easytoolbox'); ?><i><?php _e('(advisable)','easytoolbox'); ?></i></td>
+		        <td><input type="checkbox" class="checkbox" id="etb_choix_like" name="etb_choix_like" value="1" <?php checked('1', get_option('etb_choix_like')); ?> /><?php _e('Add button "Like" facebook as a result of my content','easytoolbox'); ?><i> <?php _e('(advisable)','easytoolbox'); ?></i></td>
 		        </tr>
 		        
 		        <tr valign="top">
 		        <th scope="row"><img src="../wp-content/plugins/easy-toolbox/images/share.png" /></th>
-		        <td><input type="checkbox" class="checkbox" name="etb_choix_share" id="etb_choix_share" value="1" <?php checked('1', get_option('etb_choix_share')); ?> /><?php _e('Add the \"share on social networks\" after my posts. ','easytoolbox'); ?><i><?php _e('(advisable)','easytoolbox'); ?></i></td>
+		        <td><input type="checkbox" class="checkbox" name="etb_choix_share" id="etb_choix_share" value="1" <?php checked('1', get_option('etb_choix_share')); ?> /><?php _e('Add the \"share on social networks\" after my posts. ','easytoolbox'); ?></td>
 		        
    
 		        </tr>
