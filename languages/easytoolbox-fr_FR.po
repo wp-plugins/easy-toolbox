@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: EasyToolBox\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-13 14:29+0100\n"
-"PO-Revision-Date: 2010-08-13 14:31+0100\n"
+"PO-Revision-Date: 2010-08-13 15:09+0100\n"
 "Last-Translator: frédéric <frederic.galline@gmail.com>\n"
 "Language-Team: frédéric Galline <info@easytoolbox.net>\n"
 "MIME-Version: 1.0\n"
@@ -315,7 +315,7 @@ msgstr "Compteur horizontal"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:45
 msgid "logo only"
-msgstr "pas de logo"
+msgstr "pas de compteur"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:58
 msgid "Add button \"Like\" facebook as a result of my content."
