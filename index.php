@@ -75,6 +75,8 @@ function etb_settings (){
 	register_setting('easytoolbox_options', 'etb_count_content');
 	register_setting('easytoolbox_options', 'etb_google_ad_content');
 	register_setting('easytoolbox_options', 'etb_google_id');
+	register_setting('easytoolbox_options', 'etb_tweet_format');
+	register_setting('easytoolbox_options', 'etb_choix_tweet');
 	
 }
 
