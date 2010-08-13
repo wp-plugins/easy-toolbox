@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EasyToolBox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-13 14:29+0100\n"
-"PO-Revision-Date: 2010-08-13 15:09+0100\n"
+"POT-Creation-Date: 2010-08-13 16:21+0100\n"
+"PO-Revision-Date: 2010-08-13 16:22+0100\n"
 "Last-Translator: frédéric <frederic.galline@gmail.com>\n"
 "Language-Team: frédéric Galline <info@easytoolbox.net>\n"
 "MIME-Version: 1.0\n"
@@ -211,7 +211,7 @@ msgid "Enter your Google Analytics here, if you do not already have you can get 
 msgstr "Entrez votre code Google Analytics ici. Si vous n'en avez pas encore, vous pouvez en obtenir un ici :"
 
 #: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/optimize.php:31
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:70
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:64
 msgid "More options"
 msgstr "Plus d'options"
 
@@ -292,52 +292,52 @@ msgstr "page"
 msgid " then click on your username."
 msgstr "et cliquez sur votre nom."
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:42
-msgid "Add twiter button as a result of my content."
-msgstr "Ajouter le bouton twitter à la suite de mes billets."
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:40
+msgid "Add twiter button as a result of my content"
+msgstr "Ajouter le bouton twitter à la suite de mes billets"
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:42
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:63
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:40
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:52
 msgid "(advisable)"
 msgstr "(conseillé)"
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:42
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:40
 msgid "Format"
 msgstr "Format"
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:43
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:41
 msgid "vertical count"
 msgstr "Compteur vertical"
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:44
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:42
 msgid "horizontal count"
 msgstr "Compteur horizontal"
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:45
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:43
 msgid "logo only"
 msgstr "pas de compteur"
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:58
-msgid "Add button \"Like\" facebook as a result of my content."
-msgstr "Ajouter le bouton \"j'aime\" de Facebook à la suite de mes billets."
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:52
+msgid "Add button \"Like\" facebook as a result of my content"
+msgstr "Ajouter le bouton \"j'aime\" de Facebook à la suite de mes billets"
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:63
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:57
 msgid "Add the \\\"share on social networks\\\" after my posts. "
 msgstr "Ajouter les logos \"partager\" des réseaux sociaux à la suite de mes billets."
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:81
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:75
 msgid "Here is the Geek's place!"
 msgstr "Ici c'est le coin de GEEKS !"
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:81
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:75
 msgid "Optional fields:"
 msgstr "Champs optionnels : "
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:81
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:75
 msgid "  If you don't know these services, or if you haven't subscribed, please leave blank and go your way ..."
 msgstr "Si vous ne connaissez pas ces services, ou si vous n'y avez pas souscrit, passez votre chemin ..."
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:92
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/socialize.php:86
 msgid "Link for your Itunes Podcast"
 msgstr "Lien vers votre podcast iTunes"
 
