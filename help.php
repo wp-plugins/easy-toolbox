@@ -28,7 +28,7 @@
 					<p><?php _e('Spécial thank to :', 'easytoolbox'); ?> <a target="blank" href="http://twitter.com/sebgregoire">Seb Gregoire</a>, <a target="blank" href="http://demarcq.net">Demarcq.net</a>,  <a target="blank" href="http://twitter.com/laurentfalorni">Laurent Falorni</a>,  <a target="blank" href="http://www.geekeries.fr/">Valentin Brandt ( geekerie.fr )</a></p>
 				
 				<h4><?php _e('Language Team', 'easytoolbox') ?></h4>
-					<p>Arabic : <a target="blank" href="http://10thingsx.com">10thingsx</a></p>
+					<p>Arabic : <a target="blank" href="http://10things.in">10thingsx</a></p>
 					<p>French : <a target="blank" href="http://musikplease.com">Pierre Fosco</a></p>
 					<p>Italian : <a target="blank" href="http://luciacataldo.com">Lucia Cataldo</a></p>				
 								
