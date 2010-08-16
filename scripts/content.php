@@ -2,12 +2,16 @@
 
 function new_content($content) {
 
-if (is_single() or is_page()) {
+if (is_single()) {
+
+$url=get_permalink(); 
 
 // Facebook LIKE
 $choix_like = get_option('etb_choix_like');
 if ($choix_like != "") {
-	$fb_like='<iframe src="http://www.facebook.com/plugins/like.php?href='.urlencode(get_permalink($post->ID)).'&amp;layout=standard&amp;show_faces=true&amp;width=430&amp;action=like&amp;colorscheme=evil" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:100%; height:60px; padding-top:10px;"></iframe>';
+	//$fb_like='<iframe src="http://www.facebook.com/plugins/like.php?href='.urlencode(get_permalink($post->ID)).'&amp;layout=standard&amp;show_faces=true&amp;width=430&amp;action=like&amp;colorscheme=evil" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:100%; height:60px; padding-top:10px;"></iframe>';  
+
+$fb_like='<iframe src="http://www.facebook.com/widgets/like.php?href='.urlencode(get_permalink($post->ID)).'"scrolling="no" frameborder="0"style="border:none; width:450px; height:80px; padding-top:10px;"></iframe>';
 }  
 
 // Twitter button
@@ -75,7 +79,7 @@ $adsense = get_option('etb_google_id');
 	
 .social  {
 	margin:0px;
-	padding:0 0 15px 0;
+	padding:0px;
 	height:22px;
 }
 
@@ -98,7 +102,7 @@ $adsense = get_option('etb_google_id');
 	width:20px;
 	height:20px;
 	margin:0px;
-	padding:0px 8px 0px 0px;
+	padding:0px 0px 0px 8px;
 }
 
 --></STYLE><?php
