@@ -9,9 +9,10 @@ $url=get_permalink();
 // Facebook LIKE
 $choix_like = get_option('etb_choix_like');
 if ($choix_like != "") {
-	//$fb_like='<iframe src="http://www.facebook.com/plugins/like.php?href='.urlencode(get_permalink($post->ID)).'&amp;layout=standard&amp;show_faces=true&amp;width=430&amp;action=like&amp;colorscheme=evil" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:100%; height:60px; padding-top:10px;"></iframe>';  
+	$fb_like='<iframe src="http://www.facebook.com/plugins/like.php?locale='.bloginfo('language').'&href='.urlencode(get_permalink($post->ID)).'&amp;layout=standard&amp;show_faces=true&amp;width=430&amp;action=like&amp;colorscheme=evil" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:100%; height:60px; padding-top:10px;"></iframe>';  
 
-$fb_like='<iframe src="http://www.facebook.com/widgets/like.php?href='.urlencode(get_permalink($post->ID)).'"scrolling="no" frameborder="0"style="border:none; width:450px; height:80px; padding-top:10px;"></iframe>';
+//$fb_like='<fb:like layout="standard" show-faces="true" width="450" action="like" colorscheme="light" font="arial"></fb:like>';
+
 }  
 
 // Twitter button
