@@ -3,7 +3,7 @@
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
 Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Analytics and more ....
-Version: 0.4.2
+Version: 0.5
 Author: Frederic Galline;
 Author URI: http://galline.fr
 License: A "Slug" license name e.g. GPL2
@@ -31,7 +31,7 @@ load_plugin_textdomain( 'easytoolbox', false, basename(dirname(__FILE__)) . '/la
 
 
 // Version du plugin
-$_SESSION['version'] = "0.4.2";
+$_SESSION['version'] = "0.5";
 
 // ajouter le menu en admin
 function admin_menu() {
@@ -77,6 +77,13 @@ function etb_settings (){
 	register_setting('easytoolbox_options', 'etb_google_id');
 	register_setting('easytoolbox_options', 'etb_tweet_format');
 	register_setting('easytoolbox_options', 'etb_choix_tweet');
+	register_setting('easytoolbox_options', 'etb_idapps_facebook');
+	register_setting('easytoolbox_options', 'etb_show_faces_facebook');
+	register_setting('easytoolbox_options', 'etb_colorscheme_facebook');
+	register_setting('easytoolbox_options', 'etb_font_facebook');
+	register_setting('easytoolbox_options', 'etb_layout_facebook');
+	
+
 	
 }
 
@@ -133,11 +140,7 @@ echo '<meta property="og:description" content="A very simple wordpress plugin fo
 echo '<meta property="fb:admins" content="783677570"/>'."\n";
 }
 add_action('admin_head', 'facebook_admin');
-update_option('gadsense','pub-0748171959592934');
-$count = get_option('etb_count_content')+1;
-$option_name = 'etb_count_content' ; 
-$defaut = '1';
-if ( empty($count) || $count == '6') {update_option($option_name, $defaut); } else {update_option($option_name, $count);};
+
 
 // Analytics (OK)
 require_once ("scripts/analytics.php");
