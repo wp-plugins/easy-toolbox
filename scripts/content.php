@@ -2,44 +2,82 @@
 
 function new_content($content) {
 
-if (is_single()) {
+if (is_single() or is_page()) {
 
 $url=get_permalink(); 
 
 // Facebook LIKE
 $choix_like = get_option('etb_choix_like');
-if ($choix_like != "") {
-	$fb_like='<iframe src="http://www.facebook.com/plugins/like.php?locale='.bloginfo('language').'&href='.urlencode(get_permalink($post->ID)).'&amp;layout=standard&amp;show_faces=true&amp;width=430&amp;action=like&amp;colorscheme=evil" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:100%; height:60px; padding-top:10px;"></iframe>';  
+$id_apps_facebook = get_option('etb_idapps_facebook');
+$colorscheme = get_option('etb_colorscheme_facebook');
+$font = get_option('etb_font_facebook');
+$layout = get_option('etb_layout_facebook');
+$lang = get_bloginfo('language');
 
-//$fb_like='<fb:like layout="standard" show-faces="true" width="450" action="like" colorscheme="light" font="arial"></fb:like>';
+if ($layout == "button_count") {
+	$width = "90";
+	$height="20";
+}
 
-}  
+if ($layout == "standard") {
+	
+	if (get_option('etb_show_faces_facebook') != "true") {
+		$show_face = "false";
+		$width = "450";
+		$height = "35";
+	}
+	else {
+		$show_face = get_option('etb_show_faces_facebook');
+		$width = "450";
+		$height = "80";
+	}
+}
+
+	// iFrame
+	if ($choix_like != "" and empty($id_apps_facebook)) {
+	$fb_like='<iframe src="http://www.facebook.com/plugins/like.php?locale='.$lang.'&href='.urlencode(get_permalink($post->ID)).'&amp;layout='.$layout.'&amp;show_faces='.$show_face.'&amp;width='.$width.'&amp;action=like&amp;font='.$font.'&amp;colorscheme='.$colorscheme.'" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:'.$width.'px; height:'.$height.'px;"></iframe>';  
+}
+	// XFBML 
+	if ($choix_like != "" and !empty($id_apps_facebook)) {
+	$fb_like='<fb:like layout="'.$layout.'" show-faces="'.$show_face.'" width="'.$width.'" action="like" colorscheme="'.$colorscheme.'" font="'.$font.'"></fb:like>';
+}
+
+
 
 // Twitter button
 	$choix_tweet = get_option('etb_choix_tweet');
 	$choix_tweet_format = get_option('etb_tweet_format');
 	$twitter_login = get_option('etb_twitter');
 	
+
+if ($choix_tweet_format == "vertical" or $choix_tweet_format == "none") {
+	$width_twiter = "65";
+} else {
+	$width_twiter = "110";
+}
+	
+	
 	if (!empty($twitter_login) and $choix_tweet != "") {
-	$twitter='<a href="http://twitter.com/share" rel="nofollow" class="twitter-share-button" data-count="'.$choix_tweet_format.'" data-via="'.$twitter_login.'">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js" style="padding-left:10px;vertical-align:middle;" ></script>';
+	$twitter='<a href="http://twitter.com/share" rel="nofollow" class="twitter-share-button" data-count="'.$choix_tweet_format.'" data-via="'.$twitter_login.'">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js" style="padding-left:10px;" ></script>';
 	}
 	
 	if (empty($twitter_login) and $choix_tweet != "") {
-	$twitter='<a href="http://twitter.com/share" rel="nofollow" class="twitter-share-button" data-count="'.$choix_tweet_format.'" data-via="easytoolbox" style="padding-left:10px;vertical-align:middle;">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>';
+	$twitter='<a href="http://twitter.com/share" rel="nofollow" class="twitter-share-button" data-count="'.$choix_tweet_format.'" style="padding-left:10px;">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>';
 	}
 	
 	 
 
 //Share	 
 $choix_share = get_option('etb_choix_share');
+
 if ($choix_share != "") {   
 	global $post;
 	setup_postdata($post);
 	$description=strip_tags(substr($post->post_content,0,300));
 
-	$partager = '<a href="http://easytoolbox.net" alt="Plugin All in One for Wordpress : Easytoolbox" title="Plugin All in One for Wordpress : Easytoolbox" target="blanck" style="cursor:default;text-decoration:none;color:#666666;">'. __('Share', 'easytoolbox').' </a>';     
+	$partager = '<div style="padding:0;text-decoration:none;"><a href="http://easytoolbox.net" alt="Plugin All in One for Wordpress : Easytoolbox" title="Plugin All in One for Wordpress : Easytoolbox" target="blanck" style="cursor:default;text-decoration:none;color:#666666;">'. __('Share', 'easytoolbox').' </a></div>';     
 
-// Facebook
+	// Facebook
 	$facebook='<a href="http://www.facebook.com/sharer.php?u='.htmlspecialchars($url).'&t='.get_the_title().'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/facebook.gif" alt="Facebook" title="share on facebook"></a>';
 	
 	// netvibes
@@ -55,16 +93,18 @@ if ($choix_share != "") {
 	$wikio='<a href="http://www.wikio.fr/vote?domain='.$siteurl.'&title='.$url.'" target="_blank" rel="nofollow"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/wikio.gif" alt="Wikio" title="Share on Wikio"></a>';
 
 	// DIGG  
-	    $digg='<a href="http://digg.com/submit?phase=2&url='.urlencode(get_permalink($post->ID)).'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/digg.gif" alt="Digg" title="Share on DIGG"></a>';	    
+	    $digg='<a href="http://digg.com/submit?phase=2&url='.urlencode(get_permalink($post->ID)).'" rel="nofollow" target="blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/digg.gif" alt="Digg" title="Share on DIGG"></a>';	    
+
+	// Easytoolbox  
+	    $etb='<a href="http://easytoolbox.net" target="blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/plugin_link.png" alt="Plugin Wordpress EasyToolbox. SEO, facebook, twitter, adsence and more" title="Plugin Wordpress EasyToolbox. SEO, facebook, twitter, adsence and more"></a>';	    
 }	
 
 	// Adsense
 
 $choix_adsense = get_option('etb_choix_adsense');
 $ad_content = get_option('etb_ad_content');
-$google_ad_content = get_option('etb_google_ad_content');
+$google_ad_content = "\n".get_option('etb_google_ad_content')."\n";
 $count = get_option('etb_count_content');
-$gadsense = get_option('gadsense');
 $adsense = get_option('etb_google_id');
 
 	// Ad_haut
@@ -73,15 +113,32 @@ $adsense = get_option('etb_google_id');
 				}
 	// Ad_bas
 	if ($choix_adsense == "1" && ($ad_content == "2" || $ad_content == "3") && is_single()) {
-		$ad_bottom = $google_ad_content;
-		} 
+		$ad_bottom = '<div class="ads">'.$google_ad_content.'</div>';
+		} else {
+		$ad_bottom = "";
+		}
 	
 ?><STYLE type="text/css"><!--
 	
 .social  {
 	margin:0px;
 	padding:0px;
-	height:22px;
+	height:20px;
+	width:100%;
+	float:none;
+	text-decoration:none;
+}
+
+.social a {
+	margin:0 !important;
+	padding:0 !important;
+	text-decoration:none;
+}
+
+.social a:hover {
+	margin:0 !important;
+	padding:0 !important;
+	text-decoration:none !important;
 }
 
 .social ul {
@@ -90,7 +147,7 @@ $adsense = get_option('etb_google_id');
 	padding:0 !important;
 }
 
-.social ul li {
+.social li {
 	display:block !important;
 	float:left;
 	list-style-type:none;
@@ -103,14 +160,45 @@ $adsense = get_option('etb_google_id');
 	width:20px;
 	height:20px;
 	margin:0px;
-	padding:0px 0px 0px 8px;
+	padding:0px 8px 0px 0px;
 }
 
+.social img a {
+	margin:0;
+	padding:0;
+}
+
+.twitter  {
+	margin:0px;
+	padding:0px 10px 10px 0;
+	width:$width_twiter.'px';
+	float:left;
+}
+
+.facebook  {
+	margin:0 0 10px 0px;
+	padding:0px 0 10px 0px;
+	width:$width.'px';
+}
+
+.ads  {
+	margin:0px;
+	padding:0px;
+	padding-top:10px;
+	width:450px;
+}
+
+
+
 --></STYLE><?php
+
+	if ($choix_share != "") { 
+	$logo_share = "\n".'<div class="social"><ul><li>'.$facebook.'</li><li>'.$netvibes.'</li><li>'.$etb_delicious.'</li><li>'.$technoratie.'</li><li>'.$wikio.'</li><li>'.$digg.'</li><li>'.$etb.'</li></ul></div>'."\n";
+	} else {
+	$logo_share = "\n";
+	}
 	
-	$logo_share = '<li>'.$facebook.'</li><li>'.$netvibes.'</li><li>'.$etb_delicious.'</li><li>'.$technoratie.'</li><li>'.$wikio.'</li><li>'.$digg.'</li>';
-	
-	$content=$ad_top.$content.$twitter.$fb_like.'<div class="social"><ul><li>'.$partager.'</li>'.$logo_share.'</ul></div>'.$ad_bottom;
+	$content=$ad_top.$content."\n".'<div class="twitter">'.$twitter.'</div>'."\n"."\n".'<div class="facebook">'.$fb_like.'</div>'.$logo_share.$ad_bottom;
 	}
 	   
 	   return $content;
