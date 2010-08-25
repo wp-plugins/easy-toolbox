@@ -47,7 +47,6 @@ $(document).ready(function() {
 
 });
 
-
 $(document).ready(function() {
 
 });
@@ -60,12 +59,10 @@ $(document).ready(function() {
 	include 'HTML/monetize.php'; 
 	?>
 	
-
 	<p class="submit" >
 		<input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
 	</p>
 	
-
 </form>
 	
 		</div><!--postbody-->
