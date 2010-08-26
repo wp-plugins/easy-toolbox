@@ -13,10 +13,12 @@ $colorscheme = get_option('etb_colorscheme_facebook');
 $font = get_option('etb_font_facebook');
 $layout = get_option('etb_layout_facebook');
 $lang = get_bloginfo('language');
+$lang = str_replace("-", "_", $lang);
 
 if ($layout == "button_count") {
 	$width = "90";
 	$height="20";
+	$show_face = "false";
 }
 
 if ($layout == "standard") {
@@ -39,9 +41,8 @@ if ($layout == "standard") {
 }
 	// XFBML 
 	if ($choix_like != "" and !empty($id_apps_facebook)) {
-	$fb_like='<fb:like layout="'.$layout.'" show-faces="'.$show_face.'" width="'.$width.'" action="like" colorscheme="'.$colorscheme.'" font="'.$font.'"></fb:like>';
+	$fb_like= '<fb:like href="'.urlencode(get_permalink($post->ID)).'" layout="'.$layout.'" show-faces="'.$show_face.'" width="'.$width.'" action="like" colorscheme="'.$colorscheme.'" font="'.$font.'"></fb:like>';
 }
-
 
 
 // Twitter button
