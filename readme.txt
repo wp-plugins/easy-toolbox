@@ -18,7 +18,8 @@ You never have to put your hands in your source code. Easytoolbox will add many 
 * Google Analytics to track your traffic,
 * SEO tools really simple but efficient,
 * Webmastertools,
-* Button "Like" facebook in your articles,
+* facebook "Like" Button in your articles (iFrame or XFBML),
+* Official Tweet button,
 * Logos "Share" to share your information on facebook, twitter, netvibes, Digg, Technorati, Wikio, Delicious ...
 * Your RSS feeds optimize with Feedburner,
 
