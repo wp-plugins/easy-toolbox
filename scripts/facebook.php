@@ -1,5 +1,12 @@
 <?php
 
+if ( !is_admin() ) {
+	function FBxmlns() {	
+			echo '<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">'."\n";
+	}
+	add_action('send_headers', 'FBxmlns');
+}
+
 function facebook() {
 	
 // admettre les thumbnails //
@@ -25,17 +32,24 @@ $facebook_id = get_option('etb_facebookid');
 	echo '<meta property="og:image" content="'.$image_url.'"/>'."\n";
 	echo '<meta property="og:type" content="blog" />'."\n";
 	echo '<meta property="fb:app_id" content="'.get_option('etb_idapps_facebook').'"/>'."\n";
+	echo '<meta name="fb_app_id" content="'.get_option('etb_idapps_facebook').'"/>'."\n"; 
 	echo '<meta property="og:url" content="'.$url.'"/>'."\n";
 		if (isset($facebook_id) && !empty($facebook_id)) {
 			echo '<meta property="fb:admins" content="'.$facebook_id.'"/>'."\n";
-		}	
+		}
+		
 	}
 		
 }
 
 add_action('wp_head', 'facebook');
 
+
 function facebook_script() {
+
+$lang = get_bloginfo('language');
+$lang = str_replace("-", "_", $lang);
+
 	?>
 	
 <div id="fb-root"></div>
@@ -45,9 +59,10 @@ function facebook_script() {
   xfbml: true});
  };
  (function() {
- var e = document.createElement('script'); e.async = true;
+ var e = document.createElement('script');
  e.src = document.location.protocol +
-  '//connect.facebook.net/<?php bloginfo('language') ?>/all.js';
+  '//connect.facebook.net/<?php echo $lang; ?>/all.js';
+ e.async = true;
  document.getElementById('fb-root').appendChild(e);
  }());
 </script>
