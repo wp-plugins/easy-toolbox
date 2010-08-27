@@ -54,7 +54,7 @@ $(document).ready(function() {
 </script>	
 	
 	<?php 
-	include 'HTML/optimize.php'; 
+	include 'HTML/optimiz.php'; 
 	include 'HTML/socialize.php'; 
 	include 'HTML/monetize.php'; 
 	?>
