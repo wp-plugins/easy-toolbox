@@ -3,11 +3,7 @@
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
 Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Analytics and more ....
-<<<<<<< .mine
 Version: 0.6
-=======
-Version: 0.55
->>>>>>> .r281489
 Author: Frederic Galline;
 Author URI: http://galline.fr
 License: A "Slug" license name e.g. GPL2
@@ -35,11 +31,7 @@ load_plugin_textdomain( 'easytoolbox', false, basename(dirname(__FILE__)) . '/la
 
 
 // Version du plugin
-<<<<<<< .mine
 $_SESSION['version'] = "0.6";
-=======
-$_SESSION['version'] = "0.55";
->>>>>>> .r281489
 
 // ajouter le menu en admin
 function admin_menu() {
