@@ -44,8 +44,9 @@
 		<!-- BOITE OPTIONS FACEBOOK -->      
 		<div style="display:none;" valign="top"><div id="option_facebook" style="padding:10px;background-color:#eeeeee;"> 
 		<img src="../wp-content/plugins/easy-toolbox/images/facebook-grunge-icon.png" width="256px" height="120px"/><br/>
-			<input type="text" name="etb_facebookid" value="<?php echo get_option('etb_facebookid'); ?>" /> <?php _e('ID Facebook ', 'easytoolbox'); ?> <!--<a id="inline" class="gallery" href="#id_facebook" style="cursor:help;">?</a>--><br/>
-			<input type="text" name="etb_idapps_facebook" value="<?php echo get_option('etb_idapps_facebook'); ?>" /> <?php _e('ID Application ', 'easytoolbox'); ?> <?php _e('(advisable)','easytoolbox'); ?> <a href="http://www.facebook.com/developers/createapp.php" target="blank">?</a><br/>
+			<input type="text" name="etb_facebookid" value="<?php echo get_option('etb_facebookid'); ?>" /> <?php _e('ID Facebook ', 'easytoolbox'); ?> <a id="iframe" class="gallery" href="https://graph.facebook.com/<?php echo get_option('etb_facebook'); ?>" title="test" style="cursor:help;">?</a><br/>
+			<input type="text" name="etb_idapps_facebook" value="<?php echo get_option('etb_idapps_facebook'); ?>" /> <?php _e('ID Application ', 'easytoolbox'); ?> <?php _e('(advisable)','easytoolbox'); ?> <a href="http://developers.facebook.com/setup/" target="blank">?</a><br/>
+
 			<h4><?php _e('Like button options', 'easytoolbox'); ?></h4>
 			<input type="checkbox" class="checkbox" id="etb_show_faces_facebook" name="etb_show_faces_facebook" value="true" <?php checked('true', get_option('etb_show_faces_facebook')); ?> /><?php _e('Show Faces','easytoolbox'); ?> <i><small><?php _e('(standard layout only)','easytoolbox'); ?></small></i><br/><small><?php _e('specifies whether to display profile photos below the button','easytoolbox'); ?></small><br/> 
 			
