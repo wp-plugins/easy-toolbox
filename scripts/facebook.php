@@ -1,10 +1,4 @@
 <?php
-if ( !is_admin() ) {
-	function FBxmlns() {	
-			echo '<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">'."\n";
-	}
-	//add_action('send_headers', 'FBxmlns');//
-}
 
 function facebook() {
 	
