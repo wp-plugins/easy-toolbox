@@ -21,7 +21,7 @@ $facebook_id = get_option('etb_facebookid');
 	echo "\n".'<!-- Config facebook -->'."\n";	
 	echo '<meta property="og:site_name" content="'.get_bloginfo('name').'"/>'."\n";
 	echo '<meta property="og:title" content="'.get_the_title().'"/>'."\n";
-	echo '<meta property="og:description" content="'.get_description($post).' ..."/>'."\n";
+	echo '<meta property="og:description" content="'.the_excerpt_rss().' ..."/>'."\n";
 	echo '<meta property="og:image" content="'.$image_url.'"/>'."\n";
 	echo '<meta property="og:type" content="blog" />'."\n";
 	echo '<meta property="fb:app_id" content="'.get_option('etb_idapps_facebook').'"/>'."\n";
