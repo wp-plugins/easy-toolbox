@@ -4,7 +4,7 @@ Donate link:
 Tags: SEO, Facebook, adsense, analytics, twitter, all in one, share, like, netvibes, widget
 Requires at least: 2.9
 Tested up to: 2.9
-Stable tag: 2.9.2
+Stable tag: 3.0.1
 This plugin is simple, all in one and really simplifies your life (SEO, Social networks, google adsense and more).
 
 == Description ==
