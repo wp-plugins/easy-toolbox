@@ -1,10 +1,6 @@
 <?php
 
 function facebook() {
-	
-// admettre les thumbnails //
-/* add_theme_support('post-thumbnails');
-add_image_size( 'facebook', 50, 50, true ); */
 
 $url=get_permalink();
 $facebook_id = get_option('etb_facebookid');
