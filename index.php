@@ -3,7 +3,7 @@
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
 Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Analytics and more ....
-Version: 0.64
+Version: 0.65
 Author: Frederic Galline;
 Author URI: http://galline.fr
 License: A "Slug" license name e.g. GPL2
@@ -30,7 +30,7 @@ session_start();
 load_plugin_textdomain( 'easytoolbox', false, basename(dirname(__FILE__)) . '/languages/' );
 
 // Version du plugin
-$_SESSION['version'] = "0.64";
+$_SESSION['version'] = "0.65";
 
 // ajouter le menu en admin
 function admin_menu() {
@@ -51,7 +51,6 @@ function etb_settings (){
 	register_setting('easytoolbox_options', 'etb_facebook');
 	register_setting('easytoolbox_options', 'etb_facebookid');
 	register_setting('easytoolbox_options', 'etb_adsense');
-	register_setting('easytoolbox_options', 'gadsense');
 	register_setting('easytoolbox_options', 'etb_analytics');
 	register_setting('easytoolbox_options', 'etb_webmastertools');
 	register_setting('easytoolbox_options', 'etb_bing_webmaster');
@@ -122,9 +121,11 @@ require_once ("scripts/feedburner.php");
 require_once ("scripts/content.php");
 
 // facebook (OK : TODO image thumbnail)
-add_theme_support('post-thumbnails');
-add_image_size( 'facebook', 50, 50, true ); 
+$choixlike = get_option('etb_choix_like');
+if ($choixlike == "1") {
 require_once ("scripts/facebook.php");
+} 
+
 
 // widget (OK)
 include_once ("widgets/index.php");
