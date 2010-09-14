@@ -59,11 +59,11 @@ if ($choix_tweet_format == "vertical" or $choix_tweet_format == "none") {
 	
 	
 	if (!empty($twitter_login) and $choix_tweet != "") {
-	$twitter='<a href="http://twitter.com/share" rel="nofollow" class="twitter-share-button" data-count="'.$choix_tweet_format.'" data-via="'.$twitter_login.'">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js" style="padding-left:10px;" ></script>';
-	}
+	$twitter='<a href="http://twitter.com/share" rel="nofollow" class="twitter-share-button" data-count="'.$choix_tweet_format.'" data-via="'.$twitter_login.'"></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js" style="padding-left:10px;" ></script>';
+	}	
 	
 	if (empty($twitter_login) and $choix_tweet != "") {
-	$twitter='<a href="http://twitter.com/share" rel="nofollow" class="twitter-share-button" data-count="'.$choix_tweet_format.'" style="padding-left:10px;">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>';
+	$twitter='<a href="http://twitter.com/share" rel="nofollow" class="twitter-share-button" data-count="'.$choix_tweet_format.'" style="padding-left:10px;"></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>';
 	}
 	
 	 
@@ -118,80 +118,22 @@ $adsense = get_option('etb_google_id');
 		} else {
 		$ad_bottom = "";
 		}
-	
-?><STYLE type="text/css"><!--
-	
-.social  {
-	margin:0px;
-	padding:0px;
-	height:20px;
-	width:100%;
-	float:none;
-	text-decoration:none;
-}
+?>
+<STYLE type="text/css"><!--
+.social  {margin:0px;padding:0px;height:20px;width:100%;float:none;text-decoration:none;}
+.social a {margin:0 !important;padding:0 !important;text-decoration:none;}
+.social a:hover {margin:0 !important;padding:0 !important;text-decoration:none !important;}
+.social ul {display:inline;margin:0 !important;padding:0 !important;}
+.social li {display:block !important;float:left;list-style-type:none;margin:0px;padding:0px;}
+.social img {border:0 none;width:20px;height:20px;margin:0px;padding:0px 8px 0px 0px;}
+.social img a {margin:0;padding:0;}
 
-.social a {
-	margin:0 !important;
-	padding:0 !important;
-	text-decoration:none;
-}
+.twitter  {margin:0px;padding:0px 10px 10px 0;width:<?php echo $width_twiter ?>px;float:left;}
+.facebook  {margin:0 0 10px 0px;padding:0px 0 10px 0px;width:<?php echo $width ?>px;}
 
-.social a:hover {
-	margin:0 !important;
-	padding:0 !important;
-	text-decoration:none !important;
-}
-
-.social ul {
-	display:inline;
-	margin:0 !important;
-	padding:0 !important;
-}
-
-.social li {
-	display:block !important;
-	float:left;
-	list-style-type:none;
-	margin:0px;
-	padding:0px;
-}
-
-.social img {
-	border:0 none;
-	width:20px;
-	height:20px;
-	margin:0px;
-	padding:0px 8px 0px 0px;
-}
-
-.social img a {
-	margin:0;
-	padding:0;
-}
-
-.twitter  {
-	margin:0px;
-	padding:0px 10px 10px 0;
-	width:$width_twiter.'px';
-	float:left;
-}
-
-.facebook  {
-	margin:0 0 10px 0px;
-	padding:0px 0 10px 0px;
-	width:$width.'px';
-}
-
-.ads  {
-	margin:0px;
-	padding:0px;
-	padding-top:10px;
-	width:450px;
-}
-
-
-
---></STYLE><?php
+.ads  {margin:0px;padding:0px;padding-top:10px;width:450px;}
+--></STYLE>
+<?php
 
 	if ($choix_share != "") { 
 	$logo_share = "\n".'<div class="social"><ul><li>'.$facebook.'</li><li>'.$netvibes.'</li><li>'.$etb_delicious.'</li><li>'.$technoratie.'</li><li>'.$wikio.'</li><li>'.$digg.'</li><li>'.$etb.'</li></ul></div>'."\n";
