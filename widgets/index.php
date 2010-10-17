@@ -1,9 +1,10 @@
 <?php 
 	
 	include 'followme.php';
+	include 'embed_video.php';
 	
 	$facebook = get_option('etb_facebook');
-	if (!empty($adsense)) {
+	if (!empty($facebook)) {
 	include 'fb_recent_activity.php';
 	include 'fb_recommendations.php';
 	}
@@ -22,5 +23,8 @@
 	if (!empty($twitter)) {
 	include 'twitter.php';
 	}
+	
+	
+
 	
 ?>
