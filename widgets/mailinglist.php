@@ -18,7 +18,7 @@ class mailinglist extends WP_Widget {
 		//les contrÃ´les permettent de dÃ©finir les dimensions du widget dans l'administration WP
 		//$control_ops = array('width' => 300, 'height' => 300);
 		//dans la parenthÃ¨se centrale, Ã©crivez le nom du widget qui apparaÃ®tra dans l'admin de WP
-		$this->WP_Widget('mailinglist', __('[ETB] Mailing list'), $widget_ops, $control_ops);
+		$this->WP_Widget('mailinglist', __('[ETB] Mailing list'), $widget_ops);
 		
 		wp_enqueue_script('jscolor', 
 			WP_PLUGIN_URL."/easy-toolbox/js/jscolor/jscolor.js");
