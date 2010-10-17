@@ -3,7 +3,7 @@
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
 Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Analytics and more ....
-Version: 0.65
+Version: 0.7
 Author: Frederic Galline;
 Author URI: http://galline.fr
 License: A "Slug" license name e.g. GPL2
@@ -30,7 +30,7 @@ session_start();
 load_plugin_textdomain( 'easytoolbox', false, basename(dirname(__FILE__)) . '/languages/' );
 
 // Version du plugin
-$_SESSION['version'] = "0.65";
+$_SESSION['version'] = "0.7";
 
 // ajouter le menu en admin
 function admin_menu() {
@@ -71,7 +71,8 @@ function etb_settings (){
 	register_setting('easytoolbox_options', 'etb_choix_adsense');
 	register_setting('easytoolbox_options', 'etb_ad_content');
 	register_setting('easytoolbox_options', 'etb_count_content');
-	register_setting('easytoolbox_options', 'etb_google_ad_content');
+	register_setting('easytoolbox_options', 'etb_google_ad_content_top');
+	register_setting('easytoolbox_options', 'etb_google_ad_content_bottom');
 	register_setting('easytoolbox_options', 'etb_google_id');
 	register_setting('easytoolbox_options', 'etb_tweet_format');
 	register_setting('easytoolbox_options', 'etb_choix_tweet');
