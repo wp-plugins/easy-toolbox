@@ -47,15 +47,22 @@
 			<tr valign="top" >
 
 		        <th scope="row"><img src="../wp-content/plugins/easy-toolbox/images/google_adsense.png" /><br/><br/><?php _e('Enter your Adsense code for content','easytoolbox'); ?><br/><a target="blank" href="https://www.google.com/adsense/adsense-products"><b>&rarr; </b><?php _e('Get code','easytoolbox'); ?></a><br/><br/><hr><br/><i><?php _e('For add ads on your sidebar, just use the ','easytoolbox'); ?><a href="<?php echo admin_url('widgets.php'); ?>"><?php _e('Widgets','easytoolbox'); ?></a>.</i></th>
-		        <td><textarea name="etb_google_ad_content" id="etb_google_ad_content" cols="70" rows="11"  /><?php echo get_option('etb_google_ad_content','easytoolbox'); ?></textarea></td>
+		        <td><?php _e('On top of your post (add your script)','easytoolbox'); ?><textarea name="etb_google_ad_content_top" id="etb_google_ad_content_top" cols="70" rows="11"  /><?php echo get_option('etb_google_ad_content_top','easytoolbox'); ?></textarea></td>
 			</tr>
+			
+			<tr valign="top" >
+
+		        <th scope="row"></th>
+		        <td><?php _e('On bottom of your post (add your script)','easytoolbox'); ?><textarea name="etb_google_ad_content_bottom" id="etb_google_ad_content_bottom" cols="70" rows="11"  /><?php echo get_option('etb_google_ad_content_bottom','easytoolbox'); ?></textarea></td>
+			</tr>
+
 		</table>
 		</div>
 					
 	</div>  <!-- Google Options --> 
 	
 	<?php
-	$pub=substr(strstr(get_option('etb_google_ad_content'), 'pub-'), 'p', 20); 
+	$pub=substr(strstr(get_option('etb_google_ad_content_top'), 'pub-'), 'p', 20); 
 	update_option('etb_google_id',$pub);
 	?>
 
