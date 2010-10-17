@@ -37,13 +37,18 @@ if ($layout == "standard") {
 
 	// iFrame
 	if ($choix_like != "" and empty($id_apps_facebook)) {
-	$fb_like='<iframe src="http://www.facebook.com/plugins/like.php?locale='.$lang.'&href='.urlencode(get_permalink($post->ID)).'&amp;layout='.$layout.'&amp;show_faces='.$show_face.'&amp;width='.$width.'&amp;action=like&amp;font='.$font.'&amp;colorscheme='.$colorscheme.'" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:'.$width.'px; height:'.$height.'px;"></iframe>';  
-}
-	// XFBML 
-	if ($choix_like != "" and !empty($id_apps_facebook)) {
-	$fb_like= '<fb:like href="'.urlencode(get_permalink($post->ID)).'" layout="'.$layout.'" show-faces="'.$show_face.'" width="'.$width.'" action="like" colorscheme="'.$colorscheme.'" font="'.$font.'"></fb:like>';
+
+	$fb_like='<iframe src="http://www.facebook.com/plugins/like.php?locale='.$lang.'&href='.$url.'&amp;layout='.$layout.'&amp;show_faces='.$show_face.'&amp;width='.$width.'&amp;action=like&amp;font='.$font.'&amp;colorscheme='.$colorscheme.'" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:'.$width.'px; height:'.$height.'px;"></iframe>';
+	
 }
 
+
+
+	// XFBML 
+	elseif ($choix_like != "" and !empty($id_apps_facebook)) {
+	$fb_like= '<fb:like href="'.urlencode(get_permalink($post->ID)).'" layout="'.$layout.'" show-faces="'.$show_face.'" width="'.$width.'" action="like" colorscheme="'.$colorscheme.'" font="'.$font.'"></fb:like>';
+}
+else {$fb_like = "";}
 
 // Twitter button
 	$choix_tweet = get_option('etb_choix_tweet');
@@ -61,10 +66,7 @@ if ($choix_tweet_format == "vertical" or $choix_tweet_format == "none") {
 	if (!empty($twitter_login) and $choix_tweet != "") {
 	$twitter='<a href="http://twitter.com/share" rel="nofollow" class="twitter-share-button" data-count="'.$choix_tweet_format.'" data-via="'.$twitter_login.'"></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js" style="padding-left:10px;" ></script>';
 	}	
-	
-	if (empty($twitter_login) and $choix_tweet != "") {
-	$twitter='<a href="http://twitter.com/share" rel="nofollow" class="twitter-share-button" data-count="'.$choix_tweet_format.'" style="padding-left:10px;"></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>';
-	}
+	else {$twitter = "";}
 	
 	 
 
@@ -91,7 +93,7 @@ if ($choix_share != "") {
 	    $technoratie='<a href="http://technorati.com/cosmos/search.html?url='.urlencode(get_permalink($post->ID)).'" rel="nofollow" target="_blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/technorati.png" alt="Technorati" title="Save on Technorati"></a>';
 	    
 	// Wikio
-	$wikio='<a href="http://www.wikio.fr/vote?domain='.$siteurl.'&title='.$url.'" target="_blank" rel="nofollow"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/wikio.gif" alt="Wikio" title="Share on Wikio"></a>';
+	$wikio='<a href="http://www.wikio.fr/vote?url='.$url.'" target="_blank" rel="nofollow"><img src="http://www.wikio.fr/shared/img/vote/wikio2.gif" alt="Wikio" title="Share on Wikio"/></a>';
 
 	// DIGG  
 	    $digg='<a href="http://digg.com/submit?phase=2&url='.urlencode(get_permalink($post->ID)).'" rel="nofollow" target="blank"><img src="'.get_bloginfo('wpurl').'/wp-content/plugins/easy-toolbox/scripts/icon-share/digg.gif" alt="Digg" title="Share on DIGG"></a>';	    
@@ -104,17 +106,19 @@ if ($choix_share != "") {
 
 $choix_adsense = get_option('etb_choix_adsense');
 $ad_content = get_option('etb_ad_content');
-$google_ad_content = "\n".get_option('etb_google_ad_content')."\n";
+$google_ad_content_top = "\n".get_option('etb_google_ad_content_top')."\n";
+$google_ad_content_bottom = "\n".get_option('etb_google_ad_content_bottom')."\n";
 $count = get_option('etb_count_content');
 $adsense = get_option('etb_google_id');
 
 	// Ad_haut
 	if ($choix_adsense == "1" && ($ad_content == "1" || $ad_content == "3") && is_single()){
-		$ad_top = $google_ad_content;
+		$ad_top = $google_ad_content_top;
 				}
+	else {$ad_top = "";}
 	// Ad_bas
 	if ($choix_adsense == "1" && ($ad_content == "2" || $ad_content == "3") && is_single()) {
-		$ad_bottom = '<div class="ads">'.$google_ad_content.'</div>';
+		$ad_bottom = '<div class="ads">'.$google_ad_content_bottom.'</div>';
 		} else {
 		$ad_bottom = "";
 		}
@@ -136,12 +140,12 @@ $adsense = get_option('etb_google_id');
 <?php
 
 	if ($choix_share != "") { 
-	$logo_share = "\n".'<div class="social"><ul><li>'.$facebook.'</li><li>'.$netvibes.'</li><li>'.$etb_delicious.'</li><li>'.$technoratie.'</li><li>'.$wikio.'</li><li>'.$digg.'</li><li>'.$etb.'</li></ul></div>'."\n";
+	$logo_share = '<div class="social"><ul><li>'.$facebook.'</li><li>'.$netvibes.'</li><li>'.$etb_delicious.'</li><li>'.$technoratie.'</li><li>'.$wikio.'</li><li>'.$digg.'</li><li>'.$etb.'</li></ul></div>'."\n";
 	} else {
 	$logo_share = "\n";
 	}
 	
-	$content=$ad_top.$content."\n".'<div class="twitter">'.$twitter.'</div>'."\n"."\n".'<div class="facebook">'.$fb_like.'</div>'.$logo_share.$ad_bottom;
+	$content=$ad_top.$content."\n".'<div class="twitter">'.$twitter.'</div>'."\n"."\n".'<div class="facebook">'.$fb_like.'</div><br/>'.$logo_share.$ad_bottom;
 	}
 	   
 	   return $content;
