@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Facebook Recent Activity Easytoolbox
+Plugin Name: Add script Google Adsence
 Plugin URI: http://easytoolbox.net/
 Description: Plugin adsense_wdgt for EasyToolBox
 Author: Galline Frédéric
@@ -14,7 +14,7 @@ class adsense_wdgt extends WP_Widget {
 
     function adsense_wdgt() {
 		$widget_ops = array('classname' => 'adsense_wdgt', 'description' => __('Add advertising to your Sidebar', 'easytoolbox'));
-		$this->WP_Widget('adsense_wdgt', __('[ETB] Google Adsense Advertising', 'easytoolbox'), $widget_ops, $control_ops);			
+		$this->WP_Widget('adsense_wdgt', __('[ETB] Google Adsense Advertising', 'easytoolbox'), $widget_ops);			
 		}
 	
  
