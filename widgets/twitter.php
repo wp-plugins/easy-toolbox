@@ -13,7 +13,7 @@ class twittergoodies extends WP_Widget {
 
     function twittergoodies() {
 		$widget_ops = array('classname' => 'twittergoodies', 'description' => __( "Add your last tweets with the Twitter Goodies") );
-		$this->WP_Widget('twittergoodies', __('[ETB] Your last tweets'), $widget_ops, $control_ops);
+		$this->WP_Widget('twittergoodies', __('[ETB] Your last tweets'), $widget_ops);
 		
 		wp_enqueue_script('jscolor', 
 			WP_PLUGIN_URL."/easy-toolbox/js/jscolor/jscolor.js");
