@@ -5,7 +5,7 @@ Tags: SEO, Facebook, adsense, Google analytics, GetClicky, twitter, all in one, 
 Requires at least: 3.1
 Tested up to: 3.1.3
 Stable tag: 3.1.3
-This plugin is simple, all in one and really simplifies your life (SEO, Social networks, google adsense and more).
+This plugin is simple, all in one and really simplifies your life (SEO, Social networks, google adsense, [Get Clicky](http://getclicky.com/66398326/), button +1, Twitter and more).
 
 == Description ==
 
@@ -16,7 +16,7 @@ You never have to put your hands in your source code. Easytoolbox will add many 
 
 = New options / New widgets =
 * Google Analytics to track your traffic,
-* GetClicky real time analytics !!
+* [Get Clicky](http://getclicky.com/66398326/) real time analytics !!
 * SEO tools really simple but efficient,
 * Webmastertools, bing, Yahoo, Alexa
 * facebook "Like" Button in your articles (iFrame or XFBML),
