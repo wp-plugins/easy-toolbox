@@ -3,7 +3,7 @@
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
 Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Google Analytics, GetClicky and more ....
-Version: 1.0
+Version: 1.01
 Author: Frederic Galline;
 Author URI: http://galline.fr
 License: A "Slug" license name e.g. GPL2
@@ -30,7 +30,7 @@ session_start();
 load_plugin_textdomain( 'easytoolbox', false, basename(dirname(__FILE__)) . '/languages/' );
 
 // Version du plugin
-$_SESSION['version'] = "1.0";
+$_SESSION['version'] = "1.01";
 
 // ajouter le menu en admin
 function admin_menu() {
@@ -153,6 +153,9 @@ if ( $choix_plusone != "") {
 		
 	function plusone() {
 		echo '<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>'."\n";
+		echo '<script type="text/javascript">function plusone_vote( obj ) {_gaq.push([\'_trackEvent\',\'plusone\',obj.state]);}</script>'."\n";
+
+
 	}
 	add_action('wp_head', 'plusone');	
 }
@@ -174,14 +177,14 @@ function easytoolbox_index() {
 	<div id="poststuff">
 		<div id="post-body">
 
-			<div class="postbox_dark_etb" >
-				<div class="home_dark_etb" >
+			<div class="postbox_dark" >
+				<div class="home_dark" >
 				<img src= "<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/easytoolbox_text_logo.png" width="300px" height="auto"/>
 				<P><?php _e('A plugin made for those who don\'t understand web-programmation, but who want an efficient, simple and customizable blog.','easytoolbox'); ?></p>
 				<p><i><?php echo $_SESSION['maj'] ?></i></a>
 				</div>
 				
-				<div class="inside_dark_etb">
+				<div class="inside_dark">
 					<div class="theme_cover">
 					<a href="http://easytoolbox.net" target="blank"><img src= "<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/logo_easytoolbox.png" width="180px" height="auto"/></a>
 					</div>
