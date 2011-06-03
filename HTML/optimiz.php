@@ -26,10 +26,10 @@
 </div></div>
 				<td><input type="text" name="etb_analytics" value="<?php echo get_option('etb_analytics'); ?>" /></td>
 				
-				 <th scope="row"><a href="http://getclicky.com/66398326" target="blank"><img src="http://getclicky.com/favicon.ico" width="20px" height="20px"/></a>Real time analytics <a href="http://getclicky.com/66398326">GetClicky</a> ID 
-				 </th>
+				 <th scope="row"><a href="http://getclicky.com/66398326" target="blank"><img src="http://getclicky.com/favicon.ico" width="20px" height="20px"/></a><?php _e('Real time analytics ','easytoolbox'); ?><a href="http://getclicky.com/66398326">GetClicky</a></th>
 		        
-				<td><input type="text" name="etb_getclicky" value="<?php echo get_option('etb_getclicky'); ?>" /></td>
+				<td><input type="text" name="etb_getclicky" value="<?php echo get_option('etb_getclicky'); ?>" /></br><small>find ID : Getclicky/your site/pref/Site ID</small></td>
+				
 				
 				</tr>    
 			</table>
