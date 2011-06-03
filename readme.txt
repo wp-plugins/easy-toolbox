@@ -5,7 +5,7 @@ Tags: SEO, Facebook, adsense, Google analytics, GetClicky, twitter, all in one, 
 Requires at least: 3.1
 Tested up to: 3.1.3
 Stable tag: 3.1.3
-This plugin is simple, all in one and really simplifies your life (SEO, Social networks, google adsense, [Get Clicky](http://getclicky.com/66398326/), button +1, Twitter and more).
+This plugin is simple, all in one and really simplifies your life (SEO, Social networks, Google adsense, GetClicky, button +1, Twitter and more).
 
 == Description ==
 
