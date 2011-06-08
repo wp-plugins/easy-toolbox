@@ -3,7 +3,7 @@
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
 Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Google Analytics, GetClicky and more ....
-Version: 1.01
+Version: 1.1
 Author: Frederic Galline;
 Author URI: http://galline.fr
 License: A "Slug" license name e.g. GPL2
@@ -85,6 +85,7 @@ function etb_settings (){
 	register_setting('easytoolbox_options', 'etb_alexa_verif');
 	register_setting('easytoolbox_options', 'etb_plusone_format');
 	register_setting('easytoolbox_options', 'etb_choix_plusone'); 
+	register_setting('easytoolbox_options', 'etb_post_page');
 
 	
 }
