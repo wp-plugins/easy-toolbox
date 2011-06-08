@@ -2,7 +2,19 @@
 
 function new_content($content) {
 
-if (is_single() or is_page()) {
+$post_page = get_option('etb_post_page');
+
+
+if ($post_page == 'post'){
+	$button = is_single();
+} elseif ($post_page == 'page'){
+	$button = is_page();
+} elseif ($post_page == 'both'){
+	$button = is_single() or is_page();
+}
+	
+
+if ($button) {
 
 $url=get_permalink(); 
 
