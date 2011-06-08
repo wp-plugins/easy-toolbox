@@ -152,9 +152,9 @@
 		        <?php _e('Add bouton on','easytoolbox'); ?>		        
 		        
 		        <select name="etb_post_page" id="etb_post_page">
-		        	<option value="post" <?php if(get_option('etb_post_page') == 'post'){?>selected="selected"<?php }?>><?php _e('post','easytoolbox'); ?></option>
-		        	<option value="page" <?php if(get_option('etb_post_page') == 'page'){?>selected="selected"<?php }?>><?php _e('page','easytoolbox'); ?></option>
-		        	<option value="both" <?php if(get_option('etb_post_page') == 'both'){?>selected="selected"<?php }?> ><?php _e('post and page','easytoolbox'); ?></option>
+		        	<option value="post" <?php if(get_option('etb_post_page') == 'post'){?>selected="selected"<?php }?>><?php _e('posts','easytoolbox'); ?></option>
+		        	<option value="page" <?php if(get_option('etb_post_page') == 'page'){?>selected="selected"<?php }?>><?php _e('pages','easytoolbox'); ?></option>
+		        	<option value="both" <?php if(get_option('etb_post_page') == 'both'){?>selected="selected"<?php }?> ><?php _e('posts and pages','easytoolbox'); ?></option>
 		        	
 		        </select>
 		        </td>
