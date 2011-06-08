@@ -3,7 +3,7 @@
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
 Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Google Analytics, GetClicky and more ....
-Version: 1.1C
+Version: 1.1d
 Author: Frederic Galline;
 Author URI: http://galline.fr
 License: A "Slug" license name e.g. GPL2
@@ -190,7 +190,7 @@ function easytoolbox_index() {
 					<a href="http://easytoolbox.net" target="blank"><img src= "<?PHP echo WP_PLUGIN_URL ?>/easy-toolbox/images/logo_easytoolbox.png" width="180px" height="auto"/></a>
 					</div>
 				<P><?php _e('Plugin version :','easytoolbox'); ?><a href="http://easytoolbox.net" target="blank"> <?php echo $_SESSION['version'] ?></a></p>
-				<P><?php _e('By :','easytoolbox'); ?> <a href="http://twitter.com/fredericgalline" target="blank">Fr&eacute;d&eacute;ric Gallin&eacute;</a></p>
+				<P><?php _e('By :','easytoolbox'); ?> <a href="http://twitter.com/fred" target="blank">Fr&eacute;d&eacute;ric Gallin&eacute;</a></p>
 				<P><?php _e('Web :','easytoolbox'); ?> <a href="http://easytoolbox.net" target="blank">EasyToolBox.net</a></p>
 				<P><?php _e('Follow us on twitter :','easytoolbox'); ?> <a href="http://twitter.com/easytoolbox" target="blank">@EasyToolBox</a></p>
 				<hr style="color:#999999;">
