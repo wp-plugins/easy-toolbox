@@ -136,6 +136,35 @@
 		        </tr>
 		    </table>
 		    
+		    
+<hr style="color:#333333; border:0; background-color:#eeeeee; width:90%; height: 1px;">
+		        
+		<table class="form-table" style="margin-bottom:10px">
+		        
+ 			<?php $choix_post_page = get_option('etb_post_page'); ?> 
+		        <tr valign="top">
+		        <th scope="row">
+		        
+		        </th>
+		        
+		        
+		        <td>
+		        <?php _e('Add bouton on','easytoolbox'); ?>		        
+		        
+		        <select name="etb_post_page" id="etb_post_page">
+		        	<option value="post" <?php if(get_option('etb_post_page') == 'post'){?>selected="selected"<?php }?>><?php _e('post','easytoolbox'); ?></option>
+		        	<option value="page" <?php if(get_option('etb_post_page') == 'page'){?>selected="selected"<?php }?>><?php _e('page','easytoolbox'); ?></option>
+		        	<option value="both" <?php if(get_option('etb_post_page') == 'both'){?>selected="selected"<?php }?> ><?php _e('post and page','easytoolbox'); ?></option>
+		        	
+		        </select>
+		        </td>
+		        </tr>
+		    </table>
+		    
+		    
+		    
+		    
+		    
 			
 			<div class="more_options"><small><b><a id="open_options"><?php _e('More options','easytoolbox'); ?></a></b></small></div>
 			
@@ -183,8 +212,7 @@
 		       	<td><input type="text" name="etb_wikio" value="<?php echo get_option('etb_wikio'); ?>" /></td>
 		        </tr>
 		        
-		      
-		        
+
 		    </table>
 		    </div>
 		   </div>  <!-- plus d'options -->   
