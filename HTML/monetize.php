@@ -137,6 +137,7 @@
 			    
 		        <td><?php _e('Enter your top advertising script here','easytoolbox'); ?>
 		        <textarea name="etb_google_ad_content_top" id="etb_google_ad_content_top" cols="70" rows="8"  />
+		        <?php echo get_option('etb_google_ad_content_top'); ?>
 				</textarea>
 		        </td>
 			</tr>
@@ -146,6 +147,7 @@
 		        <th scope="row"></th>
 		        <td><?php _e('And enter your bottom advertising script here)','easytoolbox'); ?>
 		        <textarea name="etb_google_ad_content_bottom" id="etb_google_ad_content_bottom" cols="70" rows="8"  />
+		        <?php echo get_option('etb_google_ad_content_bottom'); ?>
 				</textarea></td>
 			</tr>
 
