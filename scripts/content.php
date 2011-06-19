@@ -9,7 +9,7 @@ if ($post_page == 'post'){
 	$button = is_single();
 } elseif ($post_page == 'page'){
 	$button = is_page();
-} elseif ($post_page == 'both'){
+} elseif ($post_page == 'both' || $post_page == ''){
 	$button = is_single() or is_page();
 }
 	
