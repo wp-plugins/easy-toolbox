@@ -149,7 +149,7 @@
 		        
 		        
 		        <td>
-		        <?php _e('Add bouton on','easytoolbox'); ?>		        
+		        <?php _e('Add boutons on','easytoolbox'); ?>		        
 		        
 		        <select name="etb_post_page" id="etb_post_page">
 		        	<option value="post" <?php if(get_option('etb_post_page') == 'post'){?>selected="selected"<?php }?>><?php _e('posts','easytoolbox'); ?></option>
