@@ -3,7 +3,7 @@
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
 Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Google Analytics, GetClicky and more ....
-Version: 1.21
+Version: 1.3
 Author: Frederic Galline;
 Author URI: http://galline.fr
 License: A "Slug" license name e.g. GPL2
@@ -30,7 +30,7 @@ session_start();
 load_plugin_textdomain( 'easytoolbox', false, basename(dirname(__FILE__)) . '/languages/' );
 
 // Version du plugin
-$_SESSION['version'] = "1.21";
+$_SESSION['version'] = "1.3";
 
 // ajouter le menu en admin
 function admin_menu() {
@@ -102,7 +102,7 @@ add_action('admin_head', 'admin_css');
 // javascript
 function etb_admin_js() {	
 		echo "\n".'<script type="text/javascript" src="'.WP_PLUGIN_URL . '/easy-toolbox/js/jscolor/jscolor.js"></script>'."\n";
-		echo '<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>'."\n";
+		echo '<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>'."\n";
 		echo '<script type="text/javascript" src="'.WP_PLUGIN_URL . '/easy-toolbox/js/fancybox/jquery.fancybox-1.3.1.pack.js"></script>'."\n";
 		echo '<script type="text/javascript" src="'.WP_PLUGIN_URL . '/easy-toolbox/js/fancybox/jquery.easing-1.3.pack.js"></script>'."\n";
 		echo '<link rel="stylesheet" href="'.WP_PLUGIN_URL . '/easy-toolbox/js/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />'."\n";
