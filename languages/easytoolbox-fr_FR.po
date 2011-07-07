@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EasyToolBox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-08 21:19+0100\n"
-"PO-Revision-Date: 2011-06-08 21:21+0100\n"
+"POT-Creation-Date: 2011-06-19 12:49+0100\n"
+"PO-Revision-Date: 2011-06-19 12:49+0100\n"
 "Last-Translator: frédéric <frederic.galline@gmail.com>\n"
 "Language-Team: frédéric Galline <info@easytoolbox.net>\n"
 "MIME-Version: 1.0\n"
@@ -188,7 +188,7 @@ msgstr "Widgets"
 msgid "Enter your top advertising script here"
 msgstr "Entrez le code/script pour la publicité siuée en haut de vos articles"
 
-#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:147
+#: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/easy-toolbox/HTML/monetize.php:148
 msgid "And enter your bottom advertising script here)"
 msgstr "Puis entrez le code/script pour la publicité située en Bas de vos articles"
 
