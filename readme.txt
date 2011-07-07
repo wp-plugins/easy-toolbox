@@ -3,8 +3,8 @@ Contributors: frederic Galline
 Donate link: 
 Tags: SEO, Facebook, adsense, Google analytics, GetClicky, twitter, all in one, share, like, netvibes, widget, button +1, +1, plusone, plus one
 Requires at least: 3.1
-Tested up to: 3.1.3
-Stable tag: 3.1.3
+Tested up to: 3.2
+Stable tag: 3.2
 This plugin is simple, all in one and really simplifies your life (SEO, Social networks, Google adsense, GetClicky, button +1, plusone, plus one, Twitter and more).
 
 == Description ==
