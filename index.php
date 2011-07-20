@@ -6,7 +6,6 @@ Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Googl
 Version: 1.32
 Author: Frederic Galline;
 Author URI: http://galline.fr
-Domain Path: /languages
 */
 
 session_start();
