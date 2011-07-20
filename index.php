@@ -2,11 +2,10 @@
 /*
 Plugin Name: Easy Toolbox
 Plugin URI: http://easytoolbox.net
-Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Google Analytics, GetClicky and more ....
-Version: 1.31
+Description: All In One plugin for SEO, Facebook, Twitter Flickr, Adsense, Google Analytics, GetClicky and more ...
+Version: 1.32
 Author: Frederic Galline;
 Author URI: http://galline.fr
-License: A "Slug" license name e.g. GPL2
 Domain Path: /languages
 */
 
@@ -15,7 +14,7 @@ session_start();
 load_plugin_textdomain( 'easytoolbox', false, basename(dirname(__FILE__)) . '/languages/' );
 
 // Version du plugin
-$_SESSION['version'] = "1.31";
+$_SESSION['version'] = "1.32";
 
 // ajouter le menu en admin
 function admin_menu() {
